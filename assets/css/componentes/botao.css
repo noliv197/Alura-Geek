@@ -1,0 +1,11 @@
+.botao__primario{
+    background-color: var(--cor-azul);
+    color: var(--cor-branco);
+    padding: 1rem;
+}
+
+.botao__secundario{
+    border: 1px solid var(--cor-azul);
+    color: var(--cor-azul);
+    padding: 1rem 3rem;
+}

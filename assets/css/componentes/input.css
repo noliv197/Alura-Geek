@@ -1,0 +1,46 @@
+.input__busca{
+    padding: .5rem 1.7rem .5rem .5rem;
+    width: 400px;
+    color: var(--cor-preto);
+    border: none;
+    border-radius: 20px;
+    background: url("../../img/icone/icone-lupa.png") no-repeat,var(--cor-cinza-claro);
+    background-position: 97% center;
+}
+.input__busca::placeholder{
+    color: var(--cor-cinza);
+    font-family: var(--fonte);
+    font-weight: var(--peso-normal);
+    font-size: var(--tamanho-normal);
+}
+
+.input__rodape{
+    background-color: var(--cor-branco);
+    border-radius: 4px;
+    border: none;
+    max-width: 560px;
+    width: 100%;
+    height: 56px;
+    padding: 1.5rem .5rem .5rem .5rem;
+    margin: .5rem 0;
+}
+.input__textarea{
+    max-width: 560px;
+    width: 100%;
+    height: 82px;
+    margin-bottom: .5rem;
+    border: none;
+}
+.input__rodape::placeholder{
+    color: var(--cor-preto);
+    font-family: var(--fonte);
+    font-weight: var(--peso-normal);
+    font-size: var(--tamanho-medio);
+}
+.input__textarea::placeholder{
+    color: var(--cor-cinza);
+    font-family: var(--fonte);
+    font-weight: var(--peso-normal);
+    font-size: var(--tamanho-medio);
+    padding: .5rem;
+}

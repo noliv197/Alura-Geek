@@ -1,0 +1,52 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+
+body{
+    font-family: var(--fonte);   
+    font-weight: var(--peso-negrito);
+}
+header{
+    background-color: var(--fundo-branco);
+}
+
+.texto__destaque{
+    font-size: var(--tamanho-destaque);
+    color: var(--cor-branco);
+}
+.texto__subtitulo{
+    font-size: var(--tamanho-subtitulo);
+    color: var(--cor-branco);
+}
+.texto__secao{
+    font-size: var(--tamanho-grande);
+}
+.texto__primario{
+    font-size: var(--tamanho-medio);
+    color: var(--cor-azul);
+}
+.texto__titulo{
+    font-weight: var(--peso-medio);
+    font-size: var(--tamanho-normal);
+    color: var(--cor-preto);
+}
+.texto__negrito{
+    font-size: var(--tamanho-medio);
+    color: var(--cor-preto);
+}
+.texto__normal{
+    font-weight: var(--peso-medio);
+    font-size: var(--tamanho-medio);
+    color: var(--cor-preto);
+}
+.texto__pequeno{
+    font-weight: var(--peso-normal);
+    font-size: var(--tamanho-pequeno);
+    color: var(--cor-cinza);
+}
+.texto__botao{
+    font-weight: var(--peso-normal);
+    font-size: var(--tamanho-medio);
+    text-decoration: none;
+}

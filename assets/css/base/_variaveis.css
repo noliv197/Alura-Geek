@@ -1,0 +1,25 @@
+:root{
+    --fundo-branco: #FFFFFF;
+    --fundo-pagina: #F5F5F5;
+    --fundo-rodape: #EAF2FD;
+
+    --cor-azul: #2A7AE4;
+    --cor-branco: #FFFFFF;
+    --cor-cinza-claro: #F5F5F5;
+    --cor-cinza: #A2A2A2;
+    --cor-preto: #464646;
+
+    --fonte: 'Raleway', sans-serif;
+
+    --peso-normal: 400;
+    --peso-medio: 500;
+    --peso-negrito: 700;
+
+    --tamanho-pequeno: 12px;
+    --tamanho-normal: 14px;
+    --tamanho-medio: 16px;
+    --tamanho-grande: 32px;
+    --tamanho-subtitulo: 22px;
+    --tamanho-destaque: 52px;
+    
+}

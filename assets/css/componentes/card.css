@@ -1,0 +1,35 @@
+.card__produto,
+.card__lista{
+    display: flex;
+    flex-direction: column;
+}
+.card__lista a{
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+/* .card__secao, */
+.card__header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__header span{
+    background: url("../../img/icone/icone-seta.png") no-repeat;
+    background-position: right;
+    padding-right: 1.4rem; 
+}
+.card__secao{
+    margin: .5rem 0 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.card__produto img{
+    margin-bottom: .5rem;
+    max-width: 175px;
+    width: 100%;
+}
+
+.card__produto .texto__negrito{
+    margin: .5rem 0;
+}
