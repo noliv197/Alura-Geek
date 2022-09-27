@@ -46,3 +46,14 @@
     font-size: var(--tamanho-medio);
     padding: .5rem;
 }
+
+/* Container */
+.container__input{
+    position: relative;
+    width: 100%;
+}
+.container__input label{
+    position: absolute;
+    top: 20%;
+    padding-left: .5rem;
+}

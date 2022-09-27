@@ -1,0 +1,16 @@
+/* CABECALHO */
+.container__cabecalho{
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container__cabecalho--principal{
+    display: flex;
+    align-items: center;
+}
+.container__cabecalho--principal img{
+    width: 176px;
+    height: 50px;
+    margin-right: 1rem;
+}

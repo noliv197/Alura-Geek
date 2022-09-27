@@ -1,0 +1,30 @@
+/* RODAPE */
+.container__rodape{
+    background-color: var(--fundo-rodape);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2.5rem 5rem;
+}
+.container__contato{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 35%;
+}
+.container__copyright{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--fundo-branco);
+    margin: 2rem 0;
+}
+/* Cards */
+.card__lista{
+    display: flex;
+    flex-direction: column;
+}
+.card__lista a{
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
