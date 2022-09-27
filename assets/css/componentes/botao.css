@@ -2,10 +2,30 @@
     background-color: var(--cor-azul);
     color: var(--cor-branco);
     padding: 1rem;
+    border: none;
 }
 
 .botao__secundario{
     border: 1px solid var(--cor-azul);
     color: var(--cor-azul);
     padding: 1rem 3rem;
+}
+.botao__edita{
+    border: none;
+    background-color: transparent;
+    background: url("../../img/icone/icone-edit.png") no-repeat;
+    width: 24px;
+    height: 24px;
+}
+.botao__exclui{
+    border: none;
+    background-color: transparent;
+    background: url("../../img/icone/icone-trash.png") no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-right: 2.5rem;
+}
+
+.botao__edita:hover,.botao__exclui:hover{
+    cursor: pointer;
 }

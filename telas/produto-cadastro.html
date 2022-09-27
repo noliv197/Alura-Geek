@@ -1,0 +1,73 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Cadastro Produto</title>
+    <link rel="icon" href="../assets/img/icone/icone-logo.png">
+
+    <link rel="stylesheet" href="../assets/css/base/base.css">
+    <link rel="stylesheet" href="../assets/css/componentes/botao.css">
+    <link rel="stylesheet" href="../assets/css/componentes/input.css">
+    <link rel="stylesheet" href="../assets/css/componentes/container.css">
+    <link rel="stylesheet" href="../assets/css/componentes/card.css">
+</head>
+<body>
+    <header class="container__cabecalho">
+        <div class="container__cabecalho--principal">
+            <a href="home.html"><img src="../assets/img/icone/Logo.png" alt="Logo da AluraGeek"></a>
+            <input class="input__busca" type="search" placeholder="O que deseja encontrar?">
+        </div>
+        <a href="#" class="botao__secundario texto__botao">Menu adiministrador</a>
+    </header>
+    <main class="container__cadastro">
+        <div class="card__cadastro">
+            <h2 class="texto__secao">Adicionar novo produto</h2>
+            <div class="container__input">
+                <label class="texto__pequeno" for="url">URL da imagem</label>
+                <input class="input__padrao" id="url" type="url"  placeholder="">
+            </div>
+            <div class="container__input">
+                <label class="texto__pequeno" for="categoria">Categoria</label>
+                <input class="input__padrao" id="categoria" type="text"  placeholder="Console">
+            </div>
+            <div class="container__input">
+                <label class="texto__pequeno" for="nome">Nome do produto</label>
+                <input class="input__padrao" id="nome" type="text"  placeholder="Produto XYZ">
+            </div>
+            <div class="container__input">
+                <label class="texto__pequeno" for="preco">Preço do produto</label>
+                <input class="input__padrao" id="preco" type="text"  placeholder="R$60,00">
+            </div>
+            <textarea class="input__textarea" placeholder="Descrição do produto"></textarea>
+            <button class="botao__primario texto__botao">Adicionar produto</button>
+        </div>
+    </main>
+    <footer>
+        <section class="container__rodape">
+            <img src="../assets/img/icone/Logo.png" alt="Logo AluraGeek">
+            <div class="card__lista">
+                <a class="texto__normal" href="#">Quem somos nós</a>
+                <a class="texto__normal" href="#">Politica de privacidade</a>
+                <a class="texto__normal" href="#">Programa fidelidade</a>
+                <a class="texto__normal" href="#">Nossas lojas</a>
+                <a class="texto__normal" href="#">Quero ser franqueado</a>
+                <a class="texto__normal" href="#">Anuncie aqui</a>
+            </div>
+            <div class="container__contato">
+                <h3 class="texto__negrito">Fale conosco</h3>
+                <div class="container__input">
+                    <label class="texto__pequeno" for="rodape-nome">Nome</label>
+                    <input class="input__padrao" id="rodape-nome" type="text" placeholder="André Lisboa">
+                </div>
+                <textarea class="input__textarea" placeholder="Escreva sua mensagem"></textarea>
+                <a href="#" class="botao__primario texto__botao">Enviar mensagem</a>
+            </div>
+        </section>
+        <section class="container__copyright">
+            <span class="texto__normal">Desenvolvido por Natália Oliveira</span>
+            <span class="texto__normal">2022</span>
+        </section>
+    </footer>
+</body>
+</html>

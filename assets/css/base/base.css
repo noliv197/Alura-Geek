@@ -15,6 +15,11 @@ header{
     font-size: var(--tamanho-destaque);
     color: var(--cor-branco);
 }
+.texto__destaque--produto{
+    font-weight: var(--peso-medio);
+    font-size: var(--tamanho-destaque);
+    color: var(--cor-preto);
+}
 .texto__subtitulo{
     font-size: var(--tamanho-subtitulo);
     color: var(--cor-branco);
@@ -26,7 +31,8 @@ header{
     font-size: var(--tamanho-medio);
     color: var(--cor-azul);
 }
-.texto__titulo{
+.texto__titulo,
+.texto__id{
     font-weight: var(--peso-medio);
     font-size: var(--tamanho-normal);
     color: var(--cor-preto);
@@ -44,6 +50,12 @@ header{
     font-weight: var(--peso-normal);
     font-size: var(--tamanho-pequeno);
     color: var(--cor-cinza);
+}
+.texto__descricao{
+    font-weight: var(--peso-normal);
+    font-size: var(--tamanho-medio);
+    color: var(--cor-preto);
+    line-height: 19px;
 }
 .texto__botao{
     font-weight: var(--peso-normal);

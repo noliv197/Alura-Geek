@@ -15,7 +15,7 @@
 <body>
     <header class="container__cabecalho">
             <div class="container__cabecalho--principal">
-                <img src="../assets/img/icone/Logo.png" alt="Logo da AluraGeek">
+                <a href="home.html"><img src="../assets/img/icone/Logo.png" alt="Logo da AluraGeek"></a>
                 <input class="input__busca" type="search" placeholder="O que deseja encontrar?">
             </div>
             <a href="login.html" class="botao__secundario texto__botao">Login</a>
@@ -182,8 +182,10 @@
             </div>
             <div class="container__contato">
                 <h3 class="texto__negrito">Fale conosco</h3>
-                <label class="texto__pequeno" for="input-nome">Nome</label>
-                <input class="input__rodape" id="input-nome" type="text" placeholder="André Lisboa">
+                <div class="container__input">
+                    <label class="texto__pequeno" for="rodape-nome">Nome</label>
+                    <input class="input__padrao" id="rodape-nome" type="text" placeholder="André Lisboa">
+                </div>
                 <textarea class="input__textarea" placeholder="Escreva sua mensagem"></textarea>
                 <a href="#" class="botao__primario texto__botao">Enviar mensagem</a>
             </div>

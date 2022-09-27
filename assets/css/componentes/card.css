@@ -7,7 +7,7 @@
     text-decoration: none;
     margin-bottom: 2rem;
 }
-/* .card__secao, */
+
 .card__header{
     display: flex;
     flex-wrap: wrap;
@@ -19,10 +19,23 @@
     background-position: right;
     padding-right: 1.4rem; 
 }
+/* Pagina Home */
 .card__secao{
     margin: .5rem 0 3rem 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card__secao--todos{
+    display: grid;
+    column-gap: 3.3rem;
+    row-gap: 1rem;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: .5rem;
+}
+.card__produto{
+    min-width: 175px;
+    margin-bottom: 2rem;
 }
 .card__produto img{
     margin-bottom: .5rem;
@@ -32,4 +45,36 @@
 
 .card__produto .texto__negrito{
     margin: .5rem 0;
+}
+
+/* Pagina Login */
+.card__login{
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    margin: 0 auto;
+}
+.card__login input, .card__login button{
+    margin-top: 1rem;
+}
+
+/* Pagina Cadastro */
+.card__cadastro{
+    display: flex;
+    flex-direction: column;
+    max-width: 520px;
+    margin: 0 auto;
+}
+.card__cadastro textarea{
+    margin: .5rem 0;
+}
+
+/* Produto */
+.card__descricao{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.card__descricao span{
+    margin: 1rem 0;
 }

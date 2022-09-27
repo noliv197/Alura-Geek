@@ -1,3 +1,4 @@
+/* CABECALHO */
 .container__cabecalho{
     padding: 1rem 4rem;
     display: flex;
@@ -13,6 +14,8 @@
     height: 50px;
     margin-right: 1rem;
 }
+
+/* PRINCIPAL */
 .container__banner{
     position: relative;
 }
@@ -34,6 +37,47 @@
     padding: 2rem 5rem;
     background-color: var(--fundo-pagina);
 }
+
+.container__login{
+    background-color: var(--fundo-pagina);
+    text-align: center;
+    padding: 5rem 0;
+}
+.container__cadastro{
+    background-color: var(--fundo-pagina);
+    padding: 5rem 0;
+}
+.container__edita{
+    position: relative;
+}
+.container__edita button{
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+/* Input */
+.container__input{
+    position: relative;
+    width: 100%;
+}
+.container__input label{
+    position: absolute;
+    top: 20%;
+    padding-left: .5rem;
+}
+
+.container__descricaoProduto{
+    display: flex;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: var(--fundo-pagina);
+}
+.container__descricaoProduto img{
+    width: 560px;
+    max-height: 400px;
+    object-fit: cover;
+}
+/* RODAPE */
 .container__rodape{
     background-color: var(--fundo-rodape);
     display: flex;
@@ -47,12 +91,6 @@
     flex-direction: column;
     align-items: flex-start;
     width: 35%;
-    position: relative;
-}
-.container__contato label{
-    position: absolute;
-    top: 15%;
-    padding-left: .5rem;
 }
 .container__copyright{
     display: flex;
