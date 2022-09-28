@@ -15,6 +15,10 @@ header{
     background-color: var(--fundo-branco);
 }
 
+.transparente{
+    display: none;
+}
+
 .texto__destaque{
     font-size: var(--tamanho-destaque);
     color: var(--cor-branco);

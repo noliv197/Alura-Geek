@@ -10,6 +10,22 @@
     color: var(--cor-azul);
     padding: 1rem 3rem;
 }
+.botao__busca{
+    width: 24px;
+    height: 24px;
+    background: url('../../img/icone/icone-lupa.png') no-repeat;
+    background-position: center;
+}
+.botao__checkbox{
+    display: none;
+}
+.botao__checkbox:checked~.input__busca--dropdown{
+    display: block;
+}
+.checkbox__label{
+    width: 24px;
+    height: 24px;
+}
 .botao__edita{
     border: none;
     background-color: transparent;
@@ -28,4 +44,10 @@
 
 .botao__edita:hover,.botao__exclui:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .botao__secundario{
+        padding: .5rem 3rem;
+    }
 }

@@ -1,0 +1,17 @@
+.formulario__contato{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 35%;
+}
+
+@media screen and (max-width: 768px){
+    .formulario__contato{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 575px){
+    .formulario__contato{
+        width: 100%;
+    }
+}
