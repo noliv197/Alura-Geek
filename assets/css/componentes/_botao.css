@@ -3,12 +3,14 @@
     color: var(--cor-branco);
     padding: 1rem;
     border: none;
+    min-width: 100px;
 }
 
 .botao__secundario{
     border: 1px solid var(--cor-azul);
     color: var(--cor-azul);
     padding: 1rem 3rem;
+    /* min-width: 130px; */
 }
 .botao__busca{
     width: 24px;
@@ -48,6 +50,6 @@
 
 @media screen and (max-width: 768px){
     .botao__secundario{
-        padding: .5rem 3rem;
+        padding: .5rem 1rem;
     }
 }

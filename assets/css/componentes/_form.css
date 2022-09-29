@@ -5,13 +5,45 @@
     width: 35%;
 }
 
+.formulario__login{
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    margin: 0 auto;
+}
+.formulario__login input, 
+.formulario__login button{
+    margin-top: 1rem;
+}
+
+.formulario__cadastro{
+    display: flex;
+    flex-direction: column;
+    max-width: 520px;
+    margin: 0 auto;
+}
+.formulario__cadastro textarea{
+    margin: .5rem 0;
+}
+
 @media screen and (max-width: 768px){
     .formulario__contato{
         width: 60%;
+    }
+    .formulario__login{
+        align-items: center;
+    }
+    .formulario__cadastro{
+        padding: 0 1rem;
+        margin: 0;
+        max-width: none;
     }
 }
 @media screen and (max-width: 575px){
     .formulario__contato{
         width: 100%;
+    }
+    .formulario__login{
+        max-width: 275px;
     }
 }

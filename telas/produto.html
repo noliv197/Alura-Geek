@@ -14,12 +14,19 @@
 <body>
     <header class="container__cabecalho">
         <div class="container__cabecalho--principal">
-            <a href="home.html"><img src="../assets/img/icone/Logo.png" alt="Logo da AluraGeek"></a>
+            <a href="index.html"><img src="../assets/img/icone/Logo.png" alt="Logo da AluraGeek"></a>
             <input class="input__busca" type="search" placeholder="O que deseja encontrar?">
         </div>
+        <div class="container__dropdown">
+            <input class="botao__checkbox" type="checkbox"  id="busca">
+            <label class="checkbox__label" for="busca" >
+                <div class="botao__busca "></div>
+            </label>
+        </div>
+        <input class="input__busca--dropdown transparente" type="search" placeholder="O que deseja encontrar?">
     </header>
     <main>
-        <section class="container__descricaoProduto">
+        <section class="card__descricaoProduto">
             <img src="../assets/img/figuras/produto-1.png" alt="">
             <div class="card__descricao">
                 <h1 class="texto__destaque--produto">Produto XYZ</h1>

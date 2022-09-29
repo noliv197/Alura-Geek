@@ -14,13 +14,20 @@
 <body>
     <header class="container__cabecalho">
         <div class="container__cabecalho--principal">
-            <a href="home.html"><img src="../assets/img/icone/Logo.png" alt="Logo da AluraGeek"></a>
+            <a href="index.html"><img src="../assets/img/icone/Logo.png" alt="Logo da AluraGeek"></a>
             <input class="input__busca" type="search" placeholder="O que deseja encontrar?">
         </div>
         <a href="#" class="botao__secundario texto__botao">Menu adiministrador</a>
+        <div class="container__dropdown">
+            <input class="botao__checkbox" type="checkbox"  id="busca">
+            <label class="checkbox__label" for="busca" >
+                <div class="botao__busca "></div>
+            </label>
+        </div>
+        <input class="input__busca--dropdown transparente" type="search" placeholder="O que deseja encontrar?">
     </header>
     <main class="container__cadastro">
-        <div class="card__cadastro">
+        <form class="formulario__cadastro">
             <h2 class="texto__secao">Adicionar novo produto</h2>
             <div class="container__input">
                 <label class="texto__pequeno" for="url">URL da imagem</label>
@@ -40,7 +47,7 @@
             </div>
             <textarea class="input__textarea" placeholder="Descrição do produto"></textarea>
             <button class="botao__primario texto__botao">Adicionar produto</button>
-        </div>
+        </form>
     </main>
     <footer>
         <section class="container__rodape">

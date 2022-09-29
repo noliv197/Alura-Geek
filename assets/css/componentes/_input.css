@@ -72,4 +72,8 @@
     .input__busca{
         width: 275px;
     }
+    .input__padrao,
+    .input__textarea{
+        max-width: none;
+    }
 }
