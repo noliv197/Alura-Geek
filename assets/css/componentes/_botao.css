@@ -15,7 +15,7 @@
 .botao__busca{
     width: 24px;
     height: 24px;
-    background: url('../../img/icone/icone-lupa.png') no-repeat;
+    background: var(--icone-lupa);
     background-position: center;
 }
 .botao__checkbox{
@@ -31,14 +31,14 @@
 .botao__edita{
     border: none;
     background-color: transparent;
-    background: url("../../img/icone/icone-edit.png") no-repeat;
+    background: var(--icone-lapis);
     width: 24px;
     height: 24px;
 }
 .botao__exclui{
     border: none;
     background-color: transparent;
-    background: url("../../img/icone/icone-trash.png") no-repeat;
+    background: var(--icone-lixo);
     width: 24px;
     height: 24px;
     margin-right: 2.5rem;

@@ -37,7 +37,7 @@
     align-items: center;
 }
 .card__header span{
-    background: url("../../img/icone/icone-seta.png") no-repeat;
+    background: var(--icone-seta);
     background-position: right;
     padding-right: 1.4rem; 
 }

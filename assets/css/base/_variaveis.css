@@ -22,5 +22,10 @@
     --tamanho-grande: 32px;
     --tamanho-subtitulo: 22px;
     --tamanho-destaque: 52px;
+
+    --icone-lupa: url('../../img/icone/icone-lupa.png') no-repeat;
+    --icone-lixo: url("../../img/icone/icone-trash.png") no-repeat;
+    --icone-lapis: url("../../img/icone/icone-edit.png") no-repeat;
+    --icone-seta: url("../../img/icone/icone-seta.png") no-repeat;
     
 }

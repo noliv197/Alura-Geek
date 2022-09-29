@@ -4,7 +4,7 @@
     color: var(--cor-preto);
     border: none;
     border-radius: 20px;
-    background: url("../../img/icone/icone-lupa.png") no-repeat,var(--cor-cinza-claro);
+    background: var(--icone-lupa),var(--cor-cinza-claro);
     background-position: 97% center;
 }
 .input__busca--dropdown{
