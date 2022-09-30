@@ -4,15 +4,16 @@
     align-items: flex-start;
     width: 35%;
 }
-
 .formulario__login{
     display: flex;
     flex-direction: column;
     max-width: 420px;
     margin: 0 auto;
 }
-.formulario__login input, 
-.formulario__login button{
+.formulario__login h2{
+    margin-bottom: 1rem;
+}
+.formulario__login .btn{
     margin-top: 1rem;
 }
 
@@ -21,9 +22,6 @@
     flex-direction: column;
     max-width: 520px;
     margin: 0 auto;
-}
-.formulario__cadastro textarea{
-    margin: .5rem 0;
 }
 
 @media screen and (max-width: 768px){

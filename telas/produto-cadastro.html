@@ -12,21 +12,18 @@
     <link rel="stylesheet" href="../assets/css/styles/rodape.css">
 </head>
 <body>
-    <header class="container__cabecalho">
-        <div class="container__cabecalho--principal">
-            <a href="index.html"><img src="../assets/img/icone/Logo.png" alt="Logo da AluraGeek"></a>
-            <input class="input__busca" type="search" placeholder="O que deseja encontrar?">
-        </div>
-        <a href="#" class="botao__secundario texto__botao">Menu adiministrador</a>
-        <div class="container__dropdown">
-            <input class="botao__checkbox" type="checkbox"  id="busca">
-            <label class="checkbox__label" for="busca" >
-                <div class="botao__busca "></div>
-            </label>
-        </div>
-        <input class="input__busca--dropdown transparente" type="search" placeholder="O que deseja encontrar?">
+    <header>
+        <section class="cabecalho">
+            <div class="cabecalho__principal">
+                <a href="index.html"><img src="../assets/img/icone/Logo.png" alt="Logo da AluraGeek"></a>
+                <input class="input__busca" type="search" placeholder="O que deseja encontrar?">
+            </div>
+            <a href="login.html" class="btn btn__secundario">Menu administrador</a>
+            <button class="btn__icone btn__busca"></button>
+        </section>
+        <input class="input__busca input__busca--dropdown transparente" type="search" placeholder="O que deseja encontrar?">
     </header>
-    <main class="container__cadastro">
+    <main class="cadastro">
         <form class="formulario__cadastro">
             <h2 class="texto__secao">Adicionar novo produto</h2>
             <div class="container__input">
@@ -35,7 +32,12 @@
             </div>
             <div class="container__input">
                 <label class="texto__pequeno" for="categoria">Categoria</label>
-                <input class="input__padrao" id="categoria" type="text"  placeholder="Console">
+                <select class="input__padrao" id="categoria">
+                    <option value="">--Escolha uma opção--</option>
+                    <option value="starwars">Star Wars</option>
+                    <option value="console">Consoles</option>
+                    <option value="diversos">Diversos</option>
+                </select>
             </div>
             <div class="container__input">
                 <label class="texto__pequeno" for="nome">Nome do produto</label>
@@ -45,15 +47,15 @@
                 <label class="texto__pequeno" for="preco">Preço do produto</label>
                 <input class="input__padrao" id="preco" type="text"  placeholder="R$60,00">
             </div>
-            <textarea class="input__textarea" placeholder="Descrição do produto"></textarea>
-            <button class="botao__primario texto__botao">Adicionar produto</button>
+            <textarea class="input__padrao input__padrao--textarea" placeholder="Descrição do produto"></textarea>
+            <button class="btn btn__primario">Adicionar produto</button>
         </form>
     </main>
     <footer>
-        <section class="container__rodape">
-            <div class="container__links">
-                <img src="../assets/img/icone/Logo.png" alt="Logo AluraGeek">
-                <div class="card__links">
+        <section class="rodape">
+            <div class="rodape__links">
+                <a href="index.html"><img src="../assets/img/icone/Logo.png" alt="Logo AluraGeek"></a>
+                <div class="container__links">
                     <a class="texto__normal" href="#">Quem somos nós</a>
                     <a class="texto__normal" href="#">Politica de privacidade</a>
                     <a class="texto__normal" href="#">Programa fidelidade</a>
@@ -65,14 +67,14 @@
             <form class="formulario__contato">
                 <h3 class="texto__negrito">Fale conosco</h3>
                 <div class="container__input">
-                    <label class="texto__pequeno" for="rodape-nome">Nome</label>
-                    <input class="input__padrao" id="rodape-nome" type="text" placeholder="André Lisboa">
+                    <label class="texto__pequeno" for="contato-nome">Nome</label>
+                    <input class="input__padrao" id="contato-nome" type="text" placeholder="André Lisboa">
                 </div>
-                <textarea class="input__textarea" placeholder="Escreva sua mensagem"></textarea>
-                <a href="#" class="botao__primario texto__botao">Enviar mensagem</a>
+                <textarea class="input__padrao input__padrao--textarea" placeholder="Escreva sua mensagem"></textarea>
+                <a href="#" class="btn btn__primario">Enviar mensagem</a>
             </form>
         </section>
-        <section class="container__copyright">
+        <section class="copyright">
             <span class="texto__normal">Desenvolvido por Natália Oliveira</span>
             <span class="texto__normal">2022</span>
         </section>

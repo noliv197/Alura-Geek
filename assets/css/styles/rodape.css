@@ -1,55 +1,54 @@
 /* RODAPE */
-.container__rodape{
+.rodape{
     background-color: var(--fundo-rodape);
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     padding: 2.5rem 5rem;
 }
-.container__links{
+.rodape__links{
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
     width: 500px;
 }
 
-.container__copyright{
+.copyright{
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: var(--fundo-branco);
     margin: 2rem 0;
 }
-/* Cards */
-.card__links{
+/* containers */
+.container__links{
     display: flex;
     flex-direction: column;
 }
-.card__links a{
-    text-decoration: none;
+.container__links a{
     margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 768px){
-    .container__rodape{
+    .rodape{
         padding: 2.5rem;
         justify-content: space-between;
     }
-    .container__links{
+    .rodape__links{
         flex-direction: column;
         width: auto;
     }
-    .container__links .card__links{
+    .rodape__links .container__links{
         margin-top: 1rem;
     }
 }
 
 @media screen and (max-width: 575px){
-    .container__rodape{
+    .rodape{
         flex-direction: column;
         padding: 2.5rem 1rem;
     }
-    .container__links{
+    .rodapef__links{
         text-align: center;
         align-self: center;
     }

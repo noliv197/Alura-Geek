@@ -5,7 +5,7 @@
 ## Table Of Contents
 - [About The Project](#about-the-project)
 
-- [Functionalities](#functionalities)
+- [Features](#features)
 
 - [Build With](#build-with)
 
@@ -32,14 +32,18 @@ __It is very important that the website is responsive__ to give customers the ea
 The desktop and mobile templates are available [here](https://www.figma.com/file/fR9qvy3gU53s2q5efeMpy9/AluraGeek---Challenge?node-id=0%3A1)
 
 
-## Functionalities 
+## Features 
 - ` delete product`: :construction: 
 - ` edit product`: :construction:
 - ` add new product`: :construction:
 - ` admin login`: :construction: 
-- ` send mensage`: :construction:
+- ` send message`: :construction:
+- ` show all`: :construction:
+- ` search input`: :construction:
+- ` search filter`: :construction:
+- ` get products from server`: :construction:
 - ` product description customized for each product`: :construction:
-- ` show all button`: :construction:
+
 
 ## Build With
 

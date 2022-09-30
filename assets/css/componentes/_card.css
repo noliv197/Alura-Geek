@@ -13,34 +13,15 @@
 .card__produto .texto__negrito{
     margin: .5rem 0;
 }
-.card__produto:nth-child(n+7){
-    display: none;
+.card__produto .container__edita{
+    position: relative;
 }
-/* Seção */
-.card__secao{
-    margin: .5rem 0 3rem 0;
-    display: grid;
-    grid-template-columns: repeat(6,175px);
-    justify-content: space-between;
+.card__produto .container__edita button{
+    position: absolute;
+    right: 5%;
+    top: 3%;
 }
-.card__secao--todos{
-    display: grid;
-    grid-template-columns: repeat(6,175px);
-    justify-content: space-between;
-    row-gap: 1rem;
-    margin-top: .5rem;
-}
-.card__header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-.card__header span{
-    background: var(--icone-seta);
-    background-position: right;
-    padding-right: 1.4rem; 
-}
+
 /* Descrição */
 .card__descricaoProduto{
     display: flex;
@@ -61,25 +42,8 @@
 .card__descricao span{
     margin: 1rem 0;
 }
-@media screen and (max-width: 1210px){
-    .card__produto:nth-child(n+6){
-        display: none;
-    }
-    .card__secao,
-    .card__secao--todos{
-        grid-template-columns: repeat(5,175px);
-    }
 
-}
-@media screen and (max-width: 1035px){
-    .card__produto:nth-child(n+5){
-        display: none;
-    }
-    .card__secao,
-    .card__secao--todos{
-        grid-template-columns: repeat(4,175px);
-    }
-}
+
 @media screen and (max-width: 870px){
     .card__descricaoProduto{
         padding: 2.5rem;
@@ -98,21 +62,8 @@
     .card__produto{
         width: 160px;
     }
-    .card__secao,
-    .card__secao--todos{
-        grid-template-columns: repeat(4,160px);
-    }
-}
-@media screen and (max-width: 720px){
-    .card__secao,
-    .card__secao--todos{
-        grid-template-columns: repeat(3,160px);
-    }
 }
 @media screen and (max-width: 560px){
-    .card__header .texto__secao{
-        font-size: 22px;
-    }
     .card__produto{
         width: 140px;
     }
@@ -126,16 +77,4 @@
     .card__descricao{
         padding: 1rem;
     }
-}
-@media screen and (max-width: 490px){
-    .card__secao,
-    .card__secao--todos{
-        grid-template-columns: repeat(2,140px);
-    }
-}
-@media screen and (max-width: 390px){
-    .card__header h2{
-        margin-bottom: 1rem;
-    }
-
 }

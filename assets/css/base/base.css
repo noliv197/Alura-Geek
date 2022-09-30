@@ -14,6 +14,12 @@ body{
 header{
     background-color: var(--fundo-branco);
 }
+option:first-child{
+    color: var(--cor-cinza);
+}
+a {
+    text-decoration: none;
+}
 
 .transparente{
     display: none;
@@ -64,9 +70,4 @@ header{
     font-size: var(--tamanho-medio);
     color: var(--cor-preto);
     line-height: 19px;
-}
-.texto__botao{
-    font-weight: var(--peso-normal);
-    font-size: var(--tamanho-medio);
-    text-decoration: none;
 }

@@ -1,43 +1,51 @@
 /* CABECALHO */
-.container__cabecalho{
+.cabecalho{
     padding: 1rem 4rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-.container__cabecalho--principal{
+.cabecalho__principal{
     display: flex;
     align-items: center;
 }
-.container__cabecalho--principal img{
+.cabecalho__principal img{
     width: 176px;
     height: 50px;
     margin-right: 1rem;
 }
-.container__dropdown{
-    display: none;
-}
 
 @media screen and (max-width: 870px){
-    .container__cabecalho{
+    .cabecalho{
         padding: 1rem 2.5rem;
     }
-    .container__cabecalho--principal img{
+    .cabecalho__principal img{
         width: 100px;
         height: 28px;
     }
+    .cabecalho__principal+.btn__secundario{
+        padding: .5rem ;
+    }
+}
+@media screen and (max-width: 768px){
+    .cabecalho__principal .input__busca{
+        width: 275px;
+    }
 }
 @media screen and (max-width: 620px){
-    .container__cabecalho--principal .input__busca{
+    .cabecalho .btn__busca{
+        display: block;
+    }
+    .cabecalho__principal .input__busca{
         display: none;
     }
-    .container__dropdown{
-        display: block;
+    .cabecalho+.input__busca--dropdown{
+        width: 97%;
     }
 }
 @media screen and (max-width: 360px){
-    .container__cabecalho{
+    .cabecalho{
         padding: 1rem;
     }
 }

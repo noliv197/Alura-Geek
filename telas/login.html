@@ -12,33 +12,29 @@
     <link rel="stylesheet" href="../assets/css/styles/rodape.css">
 </head>
 <body>
-    <header class="container__cabecalho">
-        <div class="container__cabecalho--principal">
-            <a href="index.html"><img src="../assets/img/icone/Logo.png" alt="Logo da AluraGeek"></a>
-            <input class="input__busca" type="search" placeholder="O que deseja encontrar?">
-        </div>
-        <div class="container__dropdown">
-            <input class="botao__checkbox" type="checkbox"  id="busca">
-            <label class="checkbox__label" for="busca" >
-                <div class="botao__busca "></div>
-            </label>
-        </div>
-        <input class="input__busca--dropdown transparente" type="search" placeholder="O que deseja encontrar?">
-
+    <header>
+        <section class="cabecalho">
+            <div class="cabecalho__principal">
+                <a href="index.html"><img src="../assets/img/icone/Logo.png" alt="Logo da AluraGeek"></a>
+                <input class="input__busca" type="search" placeholder="O que deseja encontrar?">
+            </div>
+            <button class="btn__icone btn__busca"></button>
+        </section>
+        <input class="input__busca input__busca--dropdown transparente" type="search" placeholder="O que deseja encontrar?">
     </header>
-    <main class="container__login">
+    <main class="login">
         <form class="formulario__login">
             <h2 class="texto__negrito">Iniciar sessão</h2>
             <input class="input__padrao" type="text"  placeholder="Escreva seu e-mail">
             <input class="input__padrao" type="password"  placeholder="Escreva sua senha">
-            <button class="botao__primario texto__botao"> Entrar</button>
+            <button class="btn btn__primario"> Entrar</button>
         </form>
     </main>
     <footer>
-        <section class="container__rodape">
-            <div class="container__links">
-                <img src="../assets/img/icone/Logo.png" alt="Logo AluraGeek">
-                <div class="card__links">
+        <section class="rodape">
+            <div class="rodape__links">
+                <a href="index.html"><img src="../assets/img/icone/Logo.png" alt="Logo AluraGeek"></a>
+                <div class="container__links">
                     <a class="texto__normal" href="#">Quem somos nós</a>
                     <a class="texto__normal" href="#">Politica de privacidade</a>
                     <a class="texto__normal" href="#">Programa fidelidade</a>
@@ -50,14 +46,14 @@
             <form class="formulario__contato">
                 <h3 class="texto__negrito">Fale conosco</h3>
                 <div class="container__input">
-                    <label class="texto__pequeno" for="rodape-nome">Nome</label>
-                    <input class="input__padrao" id="rodape-nome" type="text" placeholder="André Lisboa">
+                    <label class="texto__pequeno" for="contato-nome">Nome</label>
+                    <input class="input__padrao" id="contato-nome" type="text" placeholder="André Lisboa">
                 </div>
-                <textarea class="input__textarea" placeholder="Escreva sua mensagem"></textarea>
-                <a href="#" class="botao__primario texto__botao">Enviar mensagem</a>
+                <textarea class="input__padrao input__padrao--textarea" placeholder="Escreva sua mensagem"></textarea>
+                <a href="#" class="btn btn__primario">Enviar mensagem</a>
             </form>
         </section>
-        <section class="container__copyright">
+        <section class="copyright">
             <span class="texto__normal">Desenvolvido por Natália Oliveira</span>
             <span class="texto__normal">2022</span>
         </section>
