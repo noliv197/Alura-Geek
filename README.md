@@ -33,9 +33,13 @@ The desktop and mobile templates are available [here](https://www.figma.com/file
 
 
 ## Functionalities 
-:construction:
-- ` 1`: description 1 
-- ` 2`: description 2
+- ` delete product`: :construction: 
+- ` edit product`: :construction:
+- ` add new product`: :construction:
+- ` admin login`: :construction: 
+- ` send mensage`: :construction:
+- ` product description customized for each product`: :construction:
+- ` show all button`: :construction:
 
 ## Build With
 
