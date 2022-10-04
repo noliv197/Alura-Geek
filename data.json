@@ -1,166 +1,164 @@
 {
-    "produtos": [
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/starwars-image-1.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"starwars",
-            "descricao":"",
-            "id":1
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/starwars-image-2.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"starwars",
-            "descricao":"",
-            "id":2
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/starwars-image-3.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"starwars",
-            "descricao":"",
-            "id":3
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/starwars-image-4.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"starwars",
-            "descricao":"",
-            "id":4
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/starwars-image-5.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"starwars",
-            "descricao":"",
-            "id":5
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/starwars-image-6.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"starwars",
-            "descricao":"",
-            "id":6
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/console-image-1.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"console",
-            "descricao":"",
-            "id":7
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/console-image-2.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"console",
-            "descricao":"",
-            "id":8
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/console-image-3.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"console",
-            "descricao":"",
-            "id":9
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/console-image-4.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"console",
-            "descricao":"",
-            "id":10
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/console-image-5.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"console",
-            "descricao":"",
-            "id":11
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/console-image-6.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"console",
-            "descricao":"",
-            "id":12
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/diversos-image-1.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"diversos",
-            "descricao":"",
-            "id":13
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/diversos-image-2.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"diversos",
-            "descricao":"",
-            "id":14
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/diversos-image-3.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"diversos",
-            "descricao":"",
-            "id":15
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/diversos-image-4.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"diversos",
-            "descricao":"",
-            "id":16
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/diversos-image-5.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"diversos",
-            "descricao":"",
-            "id":17
-        },
-        {
-            "src":"http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
-            "alt":"Foto Produto XYZ",
-            "titulo":"Produto XYZ",
-            "preco":"R$60,00",
-            "categoria":"diversos",
-            "descricao":"",
-            "id":18
-        }
-    ]    
+  "produtos": [
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-1.png",
+      "alt": "Foto Caneca stormtrooper",
+      "titulo": "Caneca stormtrooper",
+      "preco": 60,
+      "categoria": "starwars",
+      "descricao": "",
+      "id": 1
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-2.png",
+      "alt": "Foto Lego capacete darth vader",
+      "titulo": "Lego capacete darth vader",
+      "preco": 160,
+      "categoria": "starwars",
+      "descricao": "",
+      "id": 2
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-3.png",
+      "alt": "Foto Cofre do Yoda",
+      "titulo": "Cofre do Yoda",
+      "preco": 40,
+      "categoria": "starwars",
+      "descricao": "",
+      "id": 3
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-4.png",
+      "titulo": "Action Figure Stormtrooper",
+      "preco": "160",
+      "categoria": "starwars",
+      "descricao": "",
+      "id": 4
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-5.png",
+      "alt": "Foto Boneco Baby Yoda",
+      "titulo": "Boneco Baby Yoda",
+      "preco": 85,
+      "categoria": "starwars",
+      "descricao": "",
+      "id": 5
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-6.png",
+      "alt": "Foto Action Figure Kylo Ren",
+      "titulo": "Action Figure Kylo Ren",
+      "preco": 200,
+      "categoria": "starwars",
+      "descricao": "",
+      "id": 6
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-1.png",
+      "alt": "Foto Controle xbox branco",
+      "titulo": "Controle Xbox branco",
+      "preco": 260,
+      "categoria": "console",
+      "descricao": "",
+      "id": 7
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-2.png",
+      "alt": "Foto Console Sony Playstation 5 com controle",
+      "titulo": "Console Sony Playstation 5",
+      "preco": 60,
+      "categoria": "console",
+      "descricao": "",
+      "id": 8
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-3.png",
+      "alt": "Foto Console Nitendo Entertainment System",
+      "titulo": "Console Nitendo Entertainment System",
+      "preco": 300,
+      "categoria": "console",
+      "descricao": "",
+      "id": 9
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-4.png",
+      "alt": "Foto Controle nintendo switch",
+      "titulo": "Controle Nintendo Switch",
+      "preco": 320,
+      "categoria": "console",
+      "descricao": "",
+      "id": 10
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-5.png",
+      "alt": "Foto Console Xbox Series X",
+      "titulo": "Console Xbox Series X",
+      "preco": 4000,
+      "categoria": "console",
+      "descricao": "",
+      "id": 11
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-6.png",
+      "alt": "Foto Gameboy com cartuchos",
+      "titulo": "Gameboy Personalizado",
+      "preco": 100,
+      "categoria": "console",
+      "descricao": "",
+      "id": 12
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-1.png",
+      "alt": "Foto Blusa Geek",
+      "titulo": "Blusa Geek",
+      "preco": 79,
+      "categoria": "diversos",
+      "descricao": "",
+      "id": 13
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-2.png",
+      "titulo": "Blusa Retro",
+      "preco": "89",
+      "categoria": "diversos",
+      "descricao": "",
+      "id": 14
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-3.png",
+      "alt": "Foto Boneco Miniatura do Sonic",
+      "titulo": "Boneco Miniatura Sonic",
+      "preco": 179,
+      "categoria": "diversos",
+      "descricao": "",
+      "id": 15
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-4.png",
+      "alt": "Foto Relógio Digital Rosa",
+      "titulo": "Relógio Digital Rosa",
+      "preco": 300,
+      "categoria": "diversos",
+      "descricao": "",
+      "id": 16
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-5.png",
+      "alt": "Foto Oculos de realidade virtual",
+      "titulo": "Oculos de realidade virtual",
+      "preco": 3560,
+      "categoria": "diversos",
+      "descricao": "",
+      "id": 17
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
+      "alt": "Foto Pelúcia do Pikachu",
+      "titulo": "Pelúcia do Pikachu",
+      "preco": 560,
+      "categoria": "diversos",
+      "descricao": "pelúcia gigante do pikachu",
+      "id": 18
+    }
+  ]
 }
