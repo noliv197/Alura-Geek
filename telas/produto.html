@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -24,55 +25,17 @@
     </header>
     <main>
         <section class="card__descricaoProduto">
-            <img src="../assets/img/figuras/produto-1.png" alt="">
+            <div class="card__imagem"><img data-url></div>
             <div class="card__descricao">
-                <h1 class="texto__destaque--produto">Produto XYZ</h1>
-                <span class="texto__negrito">R$60,00</span>
-                <p class="texto__descricao">
-                    Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam
-                </p>
+                <h1 class="texto__destaque--produto" data-nome></h1>
+                <span class="texto__negrito" data-preco></span>
+                <p class="texto__descricao" data-descricao></p>
             </div>
         </section>
         <section class="produtos">
             <div class="secao">
                 <h2 class="texto__secao">Produtos similares</h2>
-                <div class="secao__conteudo">
-                    <div class="card__produto">
-                        <img src="../assets/img/figuras/starwars-image-1.png" alt="">
-                        <span class="texto__titulo">Produto XYZ</span>
-                        <span class="texto__negrito">R$60,00</span>
-                        <a href="produto.html" class="texto__primario">Ver produto</a>
-                    </div>
-                    <div class="card__produto">
-                        <img src="../assets/img/figuras/starwars-image-2.png" alt="">
-                        <span class="texto__titulo">Produto XYZ</span>
-                        <span class="texto__negrito">R$60,00</span>
-                        <a href="produto.html" class="texto__primario">Ver produto</a>
-                    </div>
-                    <div class="card__produto">
-                        <img src="../assets/img/figuras/starwars-image-3.png" alt="">
-                        <span class="texto__titulo">Produto XYZ</span>
-                        <span class="texto__negrito">R$60,00</span>
-                        <a href="produto.html" class="texto__primario">Ver produto</a>
-                    </div>
-                    <div class="card__produto">
-                        <img src="../assets/img/figuras/starwars-image-4.png" alt="">
-                        <span class="texto__titulo">Produto XYZ</span>
-                        <span class="texto__negrito">R$60,00</span>
-                        <a href="produto.html" class="texto__primario">Ver produto</a>
-                    </div>
-                    <div class="card__produto">
-                        <img src="../assets/img/figuras/starwars-image-5.png" alt="">
-                        <span class="texto__titulo">Produto XYZ</span>
-                        <span class="texto__negrito">R$60,00</span>
-                        <a href="produto.html" class="texto__primario">Ver produto</a>
-                    </div>
-                    <div class="card__produto">
-                        <img src="../assets/img/figuras/starwars-image-6.png" alt="">
-                        <span class="texto__titulo">Produto XYZ</span>
-                        <span class="texto__negrito">R$60,00</span>
-                        <a href="produto.html" class="texto__primario">Ver produto</a>
-                    </div>
+                <div class="secao__conteudo" data-secao>
 
                 </div>
             </div>
@@ -106,5 +69,7 @@
             <span class="texto__normal">2022</span>
         </section>
     </footer>
+    <script src="../app/verProduto.js" type="module"></script>
+    <script src="../app/exibeCardSimilar.js" type="module"></script>
 </body>
 </html>

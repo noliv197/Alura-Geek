@@ -48,6 +48,7 @@ async function atualizaProduto (src,titulo, preco, categoria, descricao,id){
         },
         body: JSON.stringify({
             src: src,
+            alt: `Foto ${titulo}`,
             titulo: titulo,
             preco: preco,
             categoria: categoria,

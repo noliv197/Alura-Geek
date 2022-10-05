@@ -2,9 +2,8 @@
   "produtos": [
     {
       "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-1.png",
-      "alt": "Foto Caneca stormtrooper",
       "titulo": "Caneca stormtrooper",
-      "preco": 60,
+      "preco": "55",
       "categoria": "starwars",
       "descricao": "",
       "id": 1
@@ -150,15 +149,6 @@
       "categoria": "diversos",
       "descricao": "",
       "id": 17
-    },
-    {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
-      "alt": "Foto Pelúcia do Pikachu",
-      "titulo": "Pelúcia do Pikachu",
-      "preco": 560,
-      "categoria": "diversos",
-      "descricao": "pelúcia gigante do pikachu",
-      "id": 18
     }
   ]
 }

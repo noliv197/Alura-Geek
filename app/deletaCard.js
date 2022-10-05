@@ -3,6 +3,7 @@ import { conectaAPI } from "./conecatAPI.js"
 const produtos = document.querySelector('[data-secao]')
 
 produtos.addEventListener('click', async (evento) => {
+    evento.preventDefault()
     let ehBotaoDeDeleta = evento.target.className === 'btn__icone btn__exclui'
     if (ehBotaoDeDeleta) {
         try{

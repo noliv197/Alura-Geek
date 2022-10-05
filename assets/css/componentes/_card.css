@@ -29,10 +29,14 @@
     padding: 2rem 5rem;
     background-color: var(--fundo-pagina);
 }
-.card__descricaoProduto img{
-    max-width: 560px;
-    max-height: 400px;
-    object-fit: cover;
+.card__imagem{
+    width: 560px;
+    height: 400px;
+}
+.card__imagem img{
+    width: 100%;
+    height: inherit;
+    object-fit: contain;
 }
 .card__descricao{
     display: flex;
