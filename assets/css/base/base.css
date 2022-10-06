@@ -24,6 +24,9 @@ a {
 .transparente{
     display: none;
 }
+.visivel{
+    display: flex;
+}
 .aviso{
     margin: .5rem auto;
     display: flex;
