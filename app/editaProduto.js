@@ -6,7 +6,7 @@ import { conectaAPI } from "./conecatAPI.js";
     const id = pegaURL.searchParams.get('id')
 
     const inputUrl = document.querySelector("[data-url]")
-    const inputTitulo = document.querySelector("[data-nome]")
+    const inputTitulo = document.querySelector("[data-titulo]")
     const inputPreco = document.querySelector("[data-preco]")
     const inputCategoria = document.querySelector("[data-categoria]")
     const inputDescricao = document.querySelector("[data-descricao]")

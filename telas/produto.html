@@ -27,7 +27,7 @@
         <section class="card__descricaoProduto">
             <div class="card__imagem"><img data-url></div>
             <div class="card__descricao">
-                <h1 class="texto__destaque--produto" data-nome></h1>
+                <h1 class="texto__destaque--produto" data-titulo></h1>
                 <span class="texto__negrito" data-preco></span>
                 <p class="texto__descricao" data-descricao></p>
             </div>
@@ -54,14 +54,14 @@
                     <a class="texto__normal" href="#">Anuncie aqui</a>
                 </div>
             </div>
-            <form class="formulario__contato">
+            <form class="formulario__contato" data-contato>
                 <h3 class="texto__negrito">Fale conosco</h3>
                 <div class="container__input">
                     <label class="texto__pequeno" for="contato-nome">Nome</label>
-                    <input class="input__padrao" id="contato-nome" type="text" placeholder="André Lisboa">
+                    <input class="input__padrao" id="contato-nome" type="text" placeholder="André Lisboa" data-nome>
                 </div>
-                <textarea class="input__padrao input__padrao--textarea" placeholder="Escreva sua mensagem"></textarea>
-                <a href="#" class="btn btn__primario">Enviar mensagem</a>
+                <textarea class="input__padrao input__padrao--textarea" placeholder="Escreva sua mensagem" data-mensagem></textarea>
+                <button class="btn btn__primario">Enviar mensagem</button>
             </form>
         </section>
         <section class="copyright">

@@ -24,6 +24,22 @@ async function postAPI(src, titulo, preco, categoria, descricao){
     
     return conexaoConvertida
 }
+async function postMensagem(nome,mensagem){
+    const conexao = await fetch('http://localhost:3000/mensagens',{
+        method: "POST",
+        headers: {
+            "Content-type": "application/json"
+        },
+        body: JSON.stringify({
+            nome: nome,
+            mensagem: mensagem
+        })
+    })
+    const conexaoConvertida = await conexao.json()
+    
+    return conexaoConvertida
+}
+
 
 async function removeProduto(id){
     const conexao = await fetch(`http://localhost:3000/produtos/${id}`, {
@@ -63,6 +79,7 @@ async function atualizaProduto (src,titulo, preco, categoria, descricao,id){
 export const conectaAPI = {
     getAPI,
     postAPI,
+    postMensagem,
     removeProduto,
     atualizaProduto,
     detalhaProduto

@@ -75,14 +75,14 @@
                     <a class="texto__normal" href="#">Anuncie aqui</a>
                 </div>
             </div>
-            <form class="formulario__contato">
+            <form class="formulario__contato" data-contato>
                 <h3 class="texto__negrito">Fale conosco</h3>
                 <div class="container__input">
                     <label class="texto__pequeno" for="contato-nome">Nome</label>
-                    <input class="input__padrao" id="contato-nome" type="text" placeholder="André Lisboa">
+                    <input class="input__padrao" id="contato-nome" type="text" placeholder="André Lisboa" data-nome>
                 </div>
-                <textarea class="input__padrao input__padrao--textarea" placeholder="Escreva sua mensagem"></textarea>
-                <a href="#" class="btn btn__primario">Enviar mensagem</a>
+                <textarea class="input__padrao input__padrao--textarea" placeholder="Escreva sua mensagem" data-mensagem></textarea>
+                <button class="btn btn__primario">Enviar mensagem</button>
             </form>
         </section>
         <section class="copyright">
@@ -90,6 +90,7 @@
             <span class="texto__normal">2022</span>
         </section>
     </footer>
+    <script src="../app/enviaContato.js" type="module"></script>
     <script src="../app/exibeCardCliente.js" type="module"></script>
     <script src="../app/verTudo.js" type="module"></script>
 </body>
