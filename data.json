@@ -140,15 +140,6 @@
       "categoria": "diversos",
       "descricao": "",
       "id": 16
-    },
-    {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-5.png",
-      "alt": "Foto Oculos de realidade virtual",
-      "titulo": "Oculos de realidade virtual",
-      "preco": 3560,
-      "categoria": "diversos",
-      "descricao": "",
-      "id": 17
     }
   ],
   "mensagens": [

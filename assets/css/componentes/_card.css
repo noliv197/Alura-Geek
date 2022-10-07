@@ -16,7 +16,7 @@
 .card__produto .container__edita{
     position: relative;
 }
-.card__produto .container__edita button{
+.card__produto .container__edita .btn__icone{
     position: absolute;
     right: 5%;
     top: 3%;

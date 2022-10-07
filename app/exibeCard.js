@@ -7,7 +7,7 @@ function constroiCard(src, alt, titulo, preco, id){
     card.innerHTML = ` 
         <div class="container__edita">
             <button class="btn__icone btn__exclui"></button>
-            <a href="../telas/produto-edicao.html?id=${id}"><button class="btn__icone btn__edita"></button></a>
+            <a href="../telas/produto-edicao.html?id=${id}" class="btn__icone btn__edita"></a>
             <img src="${src}" alt="${alt}">
         </div>
         <span class="texto__titulo">${titulo}</span>
