@@ -1,7 +1,7 @@
 import {conectaAPI} from "./conecatAPI.js"
 const secao = document.querySelector("[data-secao]") 
 
-function constroiCard(src, alt, titulo, preco, id){ 
+export function constroiCard(src, alt, titulo, preco, id){ 
     const card = document.createElement("div"); 
     card.className = "card__produto"; 
     card.innerHTML = ` 

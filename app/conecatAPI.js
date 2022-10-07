@@ -75,6 +75,12 @@ async function atualizaProduto (src,titulo, preco, categoria, descricao,id){
     
     return conexaoConvertida
 }
+async function buscaProduto(termoBusca){
+    const conexao = await fetch(`http://localhost:3000/produtos?q=${termoBusca}`) 
+    const conexaoConvertida = await conexao.json()
+    
+    return conexaoConvertida
+}
 
 export const conectaAPI = {
     getAPI,
@@ -82,5 +88,6 @@ export const conectaAPI = {
     postMensagem,
     removeProduto,
     atualizaProduto,
-    detalhaProduto
+    detalhaProduto,
+    buscaProduto
 }

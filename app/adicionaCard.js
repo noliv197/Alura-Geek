@@ -4,6 +4,7 @@ import { exibeAviso } from "./exibeAviso.js"
 const formulario = document.querySelector("[data-formulario]")
 
 async function adicionaCard(evento){
+    evento.preventDefault()
     const url = document.querySelector("[data-url]").value
     const titulo = document.querySelector("[data-titulo]").value
     const preco = document.querySelector("[data-preco]").value
@@ -15,7 +16,6 @@ async function adicionaCard(evento){
 }
 
 formulario.addEventListener('submit', evento => {
-    evento.preventDefault()
     try{
         adicionaCard(evento)
         exibeAviso("Produto adicionado com sucesso!")

@@ -140,6 +140,24 @@
       "categoria": "diversos",
       "descricao": "",
       "id": 16
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-5.png",
+      "alt": "Foto Óculos de realidade virtual",
+      "titulo": "Óculos de realidade virtual",
+      "preco": "3250",
+      "categoria": "diversos",
+      "descricao": "Óculos de realidade virtual branco",
+      "id": 18
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
+      "alt": "Foto Pelúcia do Pikachu",
+      "titulo": "Pelúcia do Pikachu",
+      "preco": "89",
+      "categoria": "diversos",
+      "descricao": "pelúcia do pikachu",
+      "id": 19
     }
   ],
   "mensagens": [
