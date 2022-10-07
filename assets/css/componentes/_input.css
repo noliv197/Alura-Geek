@@ -38,6 +38,10 @@
     font-size: var(--tamanho-medio);
 }
 
+.input__invalido{
+    border: 1px solid var(--cor-vermelho);
+}
+
 /* Container */
 .container__input{
     position: relative;

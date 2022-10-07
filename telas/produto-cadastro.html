@@ -31,26 +31,31 @@
             <h2 class="texto__secao">Adicionar novo produto</h2>
             <div class="container__input">
                 <label class="texto__pequeno" for="url">URL da imagem</label>
-                <input class="input__padrao" id="url" type="url" data-url>
+                <input class="input__padrao" id="url" type="url" data-url data-tipo="url" required>
+                <div data-erro></div>
             </div>
             <div class="container__input">
                 <label class="texto__pequeno" for="categoria">Categoria</label>
-                <select class="input__padrao" id="categoria" data-categoria>
+                <select class="input__padrao" id="categoria" data-categoria data-tipo="categoria" required>
                     <option value="">--Escolha uma opção--</option>
                     <option value="starwars">Star Wars</option>
                     <option value="console">Consoles</option>
                     <option value="diversos">Diversos</option>
                 </select>
+                <div data-erro></div>
             </div>
             <div class="container__input">
                 <label class="texto__pequeno" for="nome">Nome do produto</label>
-                <input class="input__padrao" id="nome" type="text"  placeholder="Produto XYZ" data-titulo>
+                <input class="input__padrao" id="nome" type="text"  placeholder="Produto XYZ" data-titulo data-tipo="titulo" required>
+                <div data-erro></div>
             </div>
             <div class="container__input">
                 <label class="texto__pequeno" for="preco">Preço do produto</label>
-                <input class="input__padrao" id="preco" type="text"  placeholder="R$60,00" data-preco>
+                <input class="input__padrao" id="preco" type="text"  placeholder="R$60,00" data-preco data-tipo="preco" required>
+                <div data-erro></div>
             </div>
-            <textarea class="input__padrao input__padrao--textarea" placeholder="Descrição do produto" data-descricao></textarea>
+            <textarea class="input__padrao input__padrao--textarea" placeholder="Descrição do produto" data-descricao data-tipo="descricao" required></textarea>
+            <div data-erro></div>
             <button class="btn btn__primario" data-botao>Adicionar produto</button>
         </form>
     </main>
@@ -71,9 +76,11 @@
                 <h3 class="texto__negrito">Fale conosco</h3>
                 <div class="container__input">
                     <label class="texto__pequeno" for="contato-nome">Nome</label>
-                    <input class="input__padrao" id="contato-nome" type="text" placeholder="André Lisboa" data-nome>
+                    <input class="input__padrao" id="contato-nome" type="text" placeholder="André Lisboa" data-nome data-tipo="nome" required>
+                    <div data-erro></div>
                 </div>
-                <textarea class="input__padrao input__padrao--textarea" placeholder="Escreva sua mensagem" data-mensagem></textarea>
+                <textarea class="input__padrao input__padrao--textarea" placeholder="Escreva sua mensagem" data-mensagem data-tipo="mensagem" required></textarea>
+                <div data-erro></div>
                 <button class="btn btn__primario">Enviar mensagem</button>
             </form>
         </section>
@@ -82,6 +89,7 @@
             <span class="texto__normal">2022</span>
         </section>
     </footer>
+    <script src="../app/validacaoCampos.js" type="module"></script>
     <script src="../app/adicionaCard.js" type="module"></script>
 
 </body>

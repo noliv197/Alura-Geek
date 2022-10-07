@@ -53,9 +53,11 @@
                 <h3 class="texto__negrito">Fale conosco</h3>
                 <div class="container__input">
                     <label class="texto__pequeno" for="contato-nome">Nome</label>
-                    <input class="input__padrao" id="contato-nome" type="text" placeholder="André Lisboa" data-nome>
+                    <input class="input__padrao" id="contato-nome" type="text" placeholder="André Lisboa" data-nome data-tipo="nome" required>
+                    <div data-erro></div>
                 </div>
-                <textarea class="input__padrao input__padrao--textarea" placeholder="Escreva sua mensagem" data-mensagem></textarea>
+                <textarea class="input__padrao input__padrao--textarea" placeholder="Escreva sua mensagem" data-mensagem data-tipo="mensagem" required></textarea>
+                <div data-erro></div>
                 <button class="btn btn__primario">Enviar mensagem</button>
             </form>
         </section>
@@ -65,6 +67,7 @@
         </section>
     </footer>
 
+    <script src="../app/validacaoCampos.js" type="module"></script>
     <script src="../app/exibeCard.js" type="module"></script>
     <script src="../app/deletaCard.js" type="module"></script>
 </body>

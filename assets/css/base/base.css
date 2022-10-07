@@ -92,3 +92,9 @@ a {
     color: var(--cor-branco);
 
 }
+.texto__erro{
+    font-weight: var(--peso-medio);
+    font-size: var(--tamanho-pequeno);
+    color: var(--cor-vermelho);
+    padding: 0 0 .5rem .5rem;
+}
