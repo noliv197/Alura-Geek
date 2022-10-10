@@ -41,8 +41,8 @@ The desktop and mobile templates are available [here](https://www.figma.com/file
 - ` show all`: :construction:
 - ` search input`: :construction:
 - ` search filter`: :construction:
-- ` get products from server`: :construction:
-- ` product description customized for each product`: :construction:
+- ` get products from server`: :heavy_check_mark:
+- ` product description customized for each product`: :heavy_check_mark:
 
 
 ## Build With
