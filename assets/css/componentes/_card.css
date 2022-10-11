@@ -18,8 +18,13 @@
 }
 .card__produto .container__edita .btn__icone{
     position: absolute;
-    right: 5%;
     top: 3%;
+}
+.card__produto .container__edita .btn__edita{
+    right: 5%;
+}
+.card__produto .container__edita .btn__exclui{
+    right: 27%;
 }
 
 /* Descrição */

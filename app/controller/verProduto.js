@@ -1,4 +1,4 @@
-import { conectaAPI } from "./conecatAPI.js";
+import { serverController} from "./serverController.js";
 
 (async  ()=>{
     const pegaURL = new URL(window.location)
@@ -10,7 +10,7 @@ import { conectaAPI } from "./conecatAPI.js";
     const descricao = document.querySelector("[data-descricao]")
 
     try{
-        const dados = await conectaAPI.detalhaProduto(id)
+        const dados = await new serverController().detalhaProduto(id)
         url.src = dados.src
         titulo.innerText = dados.titulo
         preco.innerText = `R$${dados.preco}`

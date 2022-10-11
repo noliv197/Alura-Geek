@@ -1,4 +1,4 @@
-import { conectaAPI } from "./conecatAPI.js";
+import { serverController } from "./serverController.js";
 
 (async  ()=>{
     const formulario = document.querySelector("[data-formulario]")
@@ -12,7 +12,7 @@ import { conectaAPI } from "./conecatAPI.js";
     const inputDescricao = document.querySelector("[data-descricao]")
 
     try{
-        const dados = await conectaAPI.detalhaProduto(id)
+        const dados = await new serverController().detalhaProduto(id)
         inputUrl.value = dados.src
         inputTitulo.value = dados.titulo
         inputPreco.value = dados.preco
@@ -28,7 +28,7 @@ import { conectaAPI } from "./conecatAPI.js";
     evento.preventDefault()
 
     try{
-        await conectaAPI.atualizaProduto(inputUrl.value, inputTitulo.value, inputPreco.value, inputCategoria.value, inputDescricao.value,id)
+        await new serverController().atualizaProduto(inputUrl.value, inputTitulo.value, inputPreco.value, inputCategoria.value, inputDescricao.value,id)
         window.location.href = "../telas/admin.html"
     }
     catch(erro){

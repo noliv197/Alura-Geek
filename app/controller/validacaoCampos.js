@@ -1,4 +1,4 @@
-import { MensagemErro } from "../model/mensagemErro.js"
+import { ErroModel } from "../model/ErroModel.js"
 
 export class Validacao{
     constructor(){
@@ -14,7 +14,7 @@ export class Validacao{
         }
     }
 
-    escaneiaInputs(){
+    aplicaValidacao(){
         this._inputs.forEach(input => {
             input.addEventListener('blur', (evento) =>{
                 this.validaCampo(evento.target)
@@ -37,9 +37,9 @@ export class Validacao{
         }else{
             campo.classList.add('input__invalido')
             campo.nextElementSibling.classList.add("texto__erro")
-            campo.nextElementSibling.innerHTML = new MensagemErro().mostraErro(campo, tipoCampo)
+            campo.nextElementSibling.innerHTML = new ErroModel().mostraErro(campo, tipoCampo)
         }
     } 
 }
 
-const valida = new Validacao().escaneiaInputs()
+const valida = new Validacao().aplicaValidacao()

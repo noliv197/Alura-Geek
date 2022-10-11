@@ -1,4 +1,4 @@
-import { conectaAPI } from "./conecatAPI.js"
+import { serverController } from "./serverController.js"
 
 const formulario = document.querySelector("[data-contato]")
 
@@ -6,7 +6,7 @@ async function enviaContato(){
     const nome = document.querySelector("[data-nome]").value
     const mensagem = document.querySelector("[data-mensagem]").value
    
-    await conectaAPI.postMensagem(nome, mensagem) 
+    await new serverController().postMensagem(nome, mensagem) 
 }
 
 formulario.addEventListener('submit', evento => {

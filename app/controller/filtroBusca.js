@@ -1,4 +1,4 @@
-import {conectaAPI} from "./conecatAPI.js"
+import {serverController} from "./serverController.js"
 import { constroiCard } from "../view/exibeCard.js"
 
 const inputBusca = document.querySelector('.input__busca')
@@ -17,7 +17,7 @@ botaoBusca.addEventListener('click', evento => {
 async function filtroBusca(evento){
     evento.preventDefault()
     const input = document.querySelector('.input__busca').value
-    const busca = await conectaAPI.buscaProduto(input)
+    const busca = await new serverController().buscaProduto(input)
 
     const lista = document.querySelector("[data-secao]")
 

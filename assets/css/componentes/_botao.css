@@ -30,7 +30,6 @@
 }
 .btn__exclui{
     background: var(--icone-lixo);
-    margin-right: 2.5rem;
 }
 .btn__show{
     color: var(--cor-azul);

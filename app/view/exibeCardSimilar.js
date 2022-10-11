@@ -1,21 +1,17 @@
-import {conectaAPI} from "../controller/conecatAPI.js"
+import {serverController} from "../controller/serverController.js"
+import { TemplateModel } from "../model/TemplateModel.js";
 
 function constroiCardSimilar(src, alt, titulo, preco, id){ 
     const card = document.createElement("div"); 
     card.className = "card__produto"; 
-    card.innerHTML = ` 
-        <img src="${src}" alt="${alt}">
-        <span class="texto__titulo">${titulo}</span>
-        <span class="texto__negrito">R$${parseFloat(preco).toFixed(2)}</span>
-        <a href="produto.html?id=${id}" class="texto__primario">Ver produto</a>
-    ` 
+    card.innerHTML = TemplateModel.modeloCardCliente(src, alt, titulo, preco, id)
     return card 
 }
 
 async function secaoFiltro(lista){
     const pegaURL = new URL(window.location)
     const id = pegaURL.searchParams.get('id')
-    const dados = await conectaAPI.detalhaProduto(id)
+    const dados = await new serverController().detalhaProduto(id)
     const secao = document.querySelector("[data-secao]") 
    
     lista.forEach(elemento => {
@@ -27,7 +23,7 @@ async function secaoFiltro(lista){
 
 async function exibeCardSimilar(){ 
     try{
-        const listaAPI = await conectaAPI.getAPI() 
+        const listaAPI = await new serverController().getProdutos() 
         secaoFiltro(listaAPI)
     }
     catch(erro){

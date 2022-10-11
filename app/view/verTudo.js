@@ -9,7 +9,11 @@ header.forEach(elemento => elemento.addEventListener('click', async (evento) => 
         if(evento.target.innerText == 'Ver tudo'){
             evento.target.innerText = 'Mostrar menos'
             console.log(cardsProdutos)
-            cardsProdutos.forEach(card => card.classList.add("visivel"))
+            cardsProdutos.forEach(card => {
+                card.classList.add("visivel")
+                card.classList.remove("transparente")
+            })
+            
             
         }else{
             evento.target.innerText = 'Ver tudo'

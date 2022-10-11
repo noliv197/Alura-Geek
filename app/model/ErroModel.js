@@ -1,4 +1,4 @@
-export class MensagemErro{
+export class ErroModel{
     constructor(){
         
         this._tiposErro = [
