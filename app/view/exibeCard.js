@@ -11,10 +11,10 @@ export function constroiCard(src, alt, titulo, preco, id){
     return card 
 }
 
-async function exibeCard(){ 
+export async function exibeCard(){ 
     const listaAPI = await new serverController().getProdutos() 
     listaAPI.forEach(elemento => secao.appendChild( 
         constroiCard(elemento.src,elemento.alt,elemento.titulo,elemento.preco,elemento.id)) 
     ); 
 } 
-exibeCard()
+// exibeCard()

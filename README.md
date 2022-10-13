@@ -34,7 +34,7 @@ The desktop and mobile templates are available [here](https://www.figma.com/file
 
 ## Features 
 - ` delete product`: :construction: 
-- ` edit product`: :construction:
+- ` edit product`: :heavy_check_mark:
 - ` add new product`: :construction:
 - ` admin login`: :construction: 
 - ` send message`: :construction:

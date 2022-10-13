@@ -20,7 +20,7 @@ function secaoFiltro(lista, secao){
         }})
 }
 
-async function exibeCardCliente(){ 
+export async function exibeCardCliente(){ 
     try{
         const listaAPI = await new serverController().getProdutos() 
         secao.forEach(div => secaoFiltro(listaAPI,div))
@@ -29,4 +29,4 @@ async function exibeCardCliente(){
         console.log(erro)
     }
 } 
-exibeCardCliente()
+// exibeCardCliente()

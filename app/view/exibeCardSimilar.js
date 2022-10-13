@@ -4,7 +4,7 @@ import { TemplateModel } from "../model/TemplateModel.js";
 function constroiCardSimilar(src, alt, titulo, preco, id){ 
     const card = document.createElement("div"); 
     card.className = "card__produto"; 
-    card.innerHTML = TemplateModel.modeloCardCliente(src, alt, titulo, preco, id)
+    card.innerHTML = TemplateModel.modeloCardSimilar(src, alt, titulo, preco, id)
     return card 
 }
 
@@ -21,7 +21,7 @@ async function secaoFiltro(lista){
     }})
 }
 
-async function exibeCardSimilar(){ 
+export async function exibeCardSimilar(){ 
     try{
         const listaAPI = await new serverController().getProdutos() 
         secaoFiltro(listaAPI)

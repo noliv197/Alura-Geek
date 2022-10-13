@@ -26,5 +26,13 @@ export class TemplateModel{
         <a href="telas/produto.html?id=${id}" class="texto__primario">Ver produto</a>
         `
     }
+    static modeloCardSimilar(src, alt, titulo, preco, id){
+        return `
+        <img src="${src}" alt="${alt}">
+        <span class="texto__titulo">${titulo}</span>
+        <span class="texto__negrito">R$${parseFloat(preco).toFixed(2)}</span>
+        <a href="produto.html?id=${id}" class="texto__primario">Ver produto</a>
+        `
+    }
 
 }

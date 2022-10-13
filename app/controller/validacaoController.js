@@ -42,4 +42,4 @@ export class Validacao{
     } 
 }
 
-const valida = new Validacao().aplicaValidacao()
+// const valida = new Validacao().aplicaValidacao()

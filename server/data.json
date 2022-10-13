@@ -63,15 +63,6 @@
       "id": 7
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-2.png",
-      "alt": "Foto Console Sony Playstation 5 com controle",
-      "titulo": "Console Sony Playstation 5",
-      "preco": 60,
-      "categoria": "console",
-      "descricao": "",
-      "id": 8
-    },
-    {
       "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-3.png",
       "alt": "Foto Console Nitendo Entertainment System",
       "titulo": "Console Nitendo Entertainment System",
@@ -159,51 +150,6 @@
       "categoria": "diversos",
       "descricao": "pelúcia do pikachu",
       "id": 19
-    },
-    {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
-      "alt": "Foto Pelúcia do Pikachu",
-      "titulo": "Pelúcia do Pikachu",
-      "preco": "160",
-      "categoria": "diversos",
-      "descricao": "pelúcia",
-      "id": 20
-    },
-    {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
-      "alt": "Foto Pelúcia do Pikachu",
-      "titulo": "Pelúcia do Pikachu",
-      "preco": "160",
-      "categoria": "diversos",
-      "descricao": "pelucia",
-      "id": 21
-    },
-    {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
-      "alt": "Foto Pelúcia do Pikachu",
-      "titulo": "Pelúcia do Pikachu",
-      "preco": "160",
-      "categoria": "diversos",
-      "descricao": "pelúcia",
-      "id": 22
-    },
-    {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
-      "alt": "Foto Pelúcia do Pikachu",
-      "titulo": "Pelúcia do Pikachu",
-      "preco": "79",
-      "categoria": "diversos",
-      "descricao": "pelúcia",
-      "id": 23
-    },
-    {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
-      "alt": "Foto Pelúcia do Pikachu",
-      "titulo": "Pelúcia do Pikachu",
-      "preco": "160",
-      "categoria": "diversos",
-      "descricao": "pelúcia",
-      "id": 24
     }
   ],
   "mensagens": [
