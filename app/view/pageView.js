@@ -1,3 +1,5 @@
+import { TemplateModel } from "../model/TemplateModel.js";
+
 export class PageView{
     static visivel(elemento){
         elemento.classList.add("visivel")
@@ -21,6 +23,14 @@ export class PageView{
             return 4
         }
     }
+
+    static exibeAviso(texto, link){ 
+        const container = document.querySelector("[data-aviso]") 
+        container.classList.add("aviso"); 
+        container.innerHTML = TemplateModel.modeloAviso(texto,link)
+    }
+
+
 }
 
 

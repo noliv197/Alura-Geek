@@ -23,6 +23,7 @@ export class CardView{
                     elemento.alt,
                     elemento.titulo,
                     elemento.preco,
+                    elemento.categoria,
                     elemento.id
                 )) 
             ); 

@@ -44,8 +44,8 @@ export class serverController{
         return conexaoConvertida
     }
 
-    async removeProduto(id){
-        const conexao = await fetch(`${this._produtos}/${id}`, {
+    static async removeProduto(id){
+        const conexao = await fetch(`http://localhost:3000/produtos/${id}`, {
             method: 'DELETE'
         })
         return conexao

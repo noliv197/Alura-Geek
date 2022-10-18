@@ -6,7 +6,7 @@ export class Validacao{
         this._regex = {
             email: 'admin-alurageek@gmail.com',
             senha: 'senhaAluraGeek',
-            preco:"(\\d+)(,\\d{1,2})*",
+            preco:"(\\d+)(\\.\\d{1,2})*",
         }
         this._validadores = {
            email: campo => validaEmail(campo),

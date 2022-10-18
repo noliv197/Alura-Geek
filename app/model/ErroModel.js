@@ -34,7 +34,7 @@ export class ErroModel{
             },
             preco:{
                 valueMissing: 'Campo não pode estar vazio ',
-                patternMismatch: 'Use somente números e "," para separar os decimais' 
+                patternMismatch: 'Use somente números e "." para separar os decimais' 
             },
             descricao:{
                 valueMissing: 'Campo não pode estar vazio '

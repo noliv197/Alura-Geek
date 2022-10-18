@@ -1,9 +1,15 @@
 export class TemplateModel{
-    static modeloAviso(texto){
-        return `
-        <span class="texto__concluido">${texto}</span>
-        <a href="admin.html" class="texto__concluido">Voltar</a>
-        `
+    static modeloAviso(texto, link){
+        if(link == '')
+            return `
+                <span class="texto__concluido">${texto}</span>
+            `
+        else{
+            return `
+                <span class="texto__concluido">${texto}</span>
+                <a href="${link}" class="texto__concluido">Voltar</a>
+            `
+        } 
     }
 
     static modeloCard(src, alt, titulo, preco, id){

@@ -10,8 +10,7 @@ export class ProdutosController{
     formulario = document.querySelector("[data-formulario]")
 
 
-    async adicionaCard(evento){
-        evento.preventDefault()
+    async adicionaCard(){
         await serverController.postProdutos(
             this.produto.url.value,
             this.produto.titulo.value,
@@ -28,16 +27,14 @@ export class ProdutosController{
             try {
                 const cardProduto = evento.target.closest('[data-id]')
                 let id = cardProduto.dataset.id
-                await new serverController().removeProduto(id)
+                await serverController.removeProduto(id)
                 cardProduto.remove()
             }
             catch (erro) {
                 console.log(erro)
             }
         }
-        document.location.reload(false)
-
-        this.se
+        //document.location.reload(false)
     }
 
     async editaProduto(){

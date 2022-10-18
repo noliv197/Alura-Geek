@@ -29,8 +29,9 @@
     },
     {
       "src": "https://imagizer.imageshack.com/img922/8910/qt1pWq.png",
+      "alt": "Foto Action Figure Stormtrooper",
       "titulo": "Action Figure Stormtrooper",
-      "preco": "160",
+      "preco": "162.35",
       "categoria": "starwars",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 4
@@ -161,7 +162,7 @@
       "id": 19
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
+      "src": "https://imagizer.imageshack.com/img924/9310/zixNRW.png",
       "alt": "Foto Pelúcia do Pikachu",
       "titulo": "Pelúcia do Pikachu",
       "preco": "79",
@@ -170,13 +171,22 @@
       "id": 20
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
+      "src": "https://imagizer.imageshack.com/img924/9310/zixNRW.png",
       "alt": "Foto Pelúcia do Pikachu",
       "titulo": "Pelúcia do Pikachu",
       "preco": "79",
       "categoria": "diversos",
-      "descricao": "sfdfadsfa",
+      "descricao": "fgfdgfd",
       "id": 21
+    },
+    {
+      "src": "https://imagizer.imageshack.com/img924/9310/zixNRW.png",
+      "alt": "Foto Pelúcia do Pikachu",
+      "titulo": "Pelúcia do Pikachu",
+      "preco": "79.79",
+      "categoria": "diversos",
+      "descricao": "hghgh",
+      "id": 22
     }
   ],
   "mensagens": [
