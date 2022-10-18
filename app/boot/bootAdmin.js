@@ -1,8 +1,8 @@
 import { Validacao } from "../controller/validacaoController.js";
 import { ProdutosController } from "../controller/produtosController.js";
-import { exibeCard } from "../view/exibeCard.js";
+import { CardView } from "../view/cardView.js";
 
-exibeCard()
+new CardView().exibeCard()
 new Validacao().aplicaValidacao()
 const controller = new ProdutosController()
 

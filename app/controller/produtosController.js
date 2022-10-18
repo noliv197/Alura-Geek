@@ -72,12 +72,12 @@ export class ProdutosController{
         })
     }
 
-    async verProduto(){
+    async descricaoProduto(){
         try{
             const dados = await new serverController().detalhaProduto(this.id)
             this.produto.url.src = dados.src
             this.produto.titulo.innerText = dados.titulo
-            this.produto.preco.innerText = `R$${dados.preco}`
+            this.produto.preco.innerText = `R$${parseFloat(dados.preco).toFixed(2)}`
             if(dados.descricao == ""){
                 this.produto.descricao.innerText = "Nenhuma descrição do produto foi fornecida"
             }else{

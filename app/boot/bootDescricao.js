@@ -1,11 +1,11 @@
 import { Validacao } from "../controller/validacaoController.js";
 import { ProdutosController } from "../controller/produtosController.js";
-import { exibeCardSimilar } from "../view/exibeCardSimilar.js";
+import { CardSimilarView } from "../view/cardSimilarView.js";
 
 (async ()=> {
     new Validacao().aplicaValidacao()
-    exibeCardSimilar()
+    new CardSimilarView().exibeCardSimilar()
     const controller = new ProdutosController()
-    controller.verProduto()
+    controller.descricaoProduto()
 })()
 

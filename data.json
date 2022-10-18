@@ -1,7 +1,7 @@
 {
   "produtos": [
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-1.png",
+      "src": "https://imagizer.imageshack.com/img922/438/FkLakG.png",
       "alt": "Foto Caneca stormtrooper",
       "titulo": "Caneca stormtrooper",
       "preco": "55",
@@ -10,131 +10,140 @@
       "id": 1
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-2.png",
+      "src": "https://imagizer.imageshack.com/img923/6140/Ss9dqH.png",
       "alt": "Foto Lego capacete darth vader",
       "titulo": "Lego capacete darth vader",
       "preco": 160,
       "categoria": "starwars",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 2
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-3.png",
+      "src": "https://imagizer.imageshack.com/img924/6258/8UzsVh.png",
       "alt": "Foto Cofre do Yoda",
       "titulo": "Cofre do Yoda",
       "preco": 40,
       "categoria": "starwars",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 3
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-4.png",
+      "src": "https://imagizer.imageshack.com/img922/8910/qt1pWq.png",
       "titulo": "Action Figure Stormtrooper",
       "preco": "160",
       "categoria": "starwars",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 4
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-5.png",
+      "src": "https://imagizer.imageshack.com/img923/8566/6kFv9D.png",
       "alt": "Foto Boneco Baby Yoda",
       "titulo": "Boneco Baby Yoda",
       "preco": 85,
       "categoria": "starwars",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 5
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/starwars-image-6.png",
+      "src": "https://imagizer.imageshack.com/img924/6990/5RPbwy.png",
       "alt": "Foto Action Figure Kylo Ren",
       "titulo": "Action Figure Kylo Ren",
       "preco": 200,
       "categoria": "starwars",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 6
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-1.png",
+      "src": "https://imagizer.imageshack.com/img924/2338/T6pxzu.png",
       "alt": "Foto Controle xbox branco",
       "titulo": "Controle Xbox branco",
       "preco": 260,
       "categoria": "console",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 7
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-3.png",
+      "src": "https://imagizer.imageshack.com/img922/4421/E63x5H.png",
+      "alt": "Foto Console Playstation 5 com controle",
+      "titulo": "Console Playstation 5",
+      "preco": 3259,
+      "categoria": "console",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
+      "id": 8
+    },
+    {
+      "src": "https://imagizer.imageshack.com/img924/137/9dV66g.png",
       "alt": "Foto Console Nitendo Entertainment System",
       "titulo": "Console Nitendo Entertainment System",
       "preco": 300,
       "categoria": "console",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 9
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-4.png",
+      "src": "https://imagizer.imageshack.com/img922/8330/tLN7S0.png",
       "alt": "Foto Controle nintendo switch",
       "titulo": "Controle Nintendo Switch",
       "preco": 320,
       "categoria": "console",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 10
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-5.png",
+      "src": "https://imagizer.imageshack.com/img924/4074/XTy6jQ.png",
       "alt": "Foto Console Xbox Series X",
       "titulo": "Console Xbox Series X",
       "preco": 4000,
       "categoria": "console",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 11
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/console-image-6.png",
+      "src": "https://imagizer.imageshack.com/img922/7677/6gScBm.png",
       "alt": "Foto Gameboy com cartuchos",
       "titulo": "Gameboy Personalizado",
       "preco": 100,
       "categoria": "console",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 12
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-1.png",
+      "src": "https://imagizer.imageshack.com/img924/7963/eOnsER.png",
       "alt": "Foto Blusa Geek",
       "titulo": "Blusa Geek",
       "preco": 79,
       "categoria": "diversos",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 13
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-2.png",
+      "src": "https://imagizer.imageshack.com/img923/9061/9je0lt.png",
       "titulo": "Blusa Retro",
       "preco": "89",
       "categoria": "diversos",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 14
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-3.png",
+      "src": "https://imagizer.imageshack.com/img923/8955/xlek3e.png",
       "alt": "Foto Boneco Miniatura do Sonic",
       "titulo": "Boneco Miniatura Sonic",
       "preco": 179,
       "categoria": "diversos",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 15
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-4.png",
+      "src": "https://imagizer.imageshack.com/img924/3969/G0Mqb6.png",
       "alt": "Foto Relógio Digital Rosa",
       "titulo": "Relógio Digital Rosa",
       "preco": 300,
       "categoria": "diversos",
-      "descricao": "",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus tempor pellentesque. Donec vel sapien vitae dui porta semper at vitae sapien. Donec scelerisque interdum lectus nec rhoncus. Nam sit amet commodo magna. Integer vitae vehicula metus, a consequat urna. Suspendisse sollicitudin urna ligula, in porta nisi dignissim eget. Praesent lacinia, leo et rutrum tempus, tortor ex sagittis nisi, a tincidunt ex metus sit amet ligula. Suspendisse id elementum purus, eget euismod lacus. Duis eleifend magna nec arcu tristique, nec luctus sem elementum. Vivamus et nibh a diam sodales molestie. Vivamus et sem pretium, sollicitudin urna sed, mattis ligula. Suspendisse id enim ac mi venenatis iaculis. Nunc vitae dolor ultricies erat tempor fringilla vitae in dui.",
       "id": 16
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-5.png",
+      "src": "https://imagizer.imageshack.com/img923/2959/IGb92g.png",
       "alt": "Foto Óculos de realidade virtual",
       "titulo": "Óculos de realidade virtual",
       "preco": "3250",
@@ -143,13 +152,31 @@
       "id": 18
     },
     {
-      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
+      "src": "https://imagizer.imageshack.com/img924/9310/zixNRW.png",
       "alt": "Foto Pelúcia do Pikachu",
       "titulo": "Pelúcia do Pikachu",
       "preco": "89",
       "categoria": "diversos",
       "descricao": "pelúcia do pikachu",
       "id": 19
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
+      "alt": "Foto Pelúcia do Pikachu",
+      "titulo": "Pelúcia do Pikachu",
+      "preco": "79",
+      "categoria": "diversos",
+      "descricao": "efsdfadfasdf",
+      "id": 20
+    },
+    {
+      "src": "http://127.0.0.1:5501/assets/img/figuras/diversos-image-6.png",
+      "alt": "Foto Pelúcia do Pikachu",
+      "titulo": "Pelúcia do Pikachu",
+      "preco": "79",
+      "categoria": "diversos",
+      "descricao": "sfdfadsfa",
+      "id": 21
     }
   ],
   "mensagens": [

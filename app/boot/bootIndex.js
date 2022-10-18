@@ -1,14 +1,15 @@
 import { Validacao } from "../controller/validacaoController.js";
-import { ProdutosController } from "../controller/produtosController.js";
-import {exibeCardCliente} from "../view/exibeCardCliente.js"
-//import ver tudo
+import { CardClienteView } from "../view/cardClienteView.js";
+import { ExibeTudoView } from "../view/exibeTudoView.js";
 //import filtro
 //enviaContato
 
-(async ()=> {
-    new Validacao().aplicaValidacao()
-    exibeCardCliente()
-    const controller = new ProdutosController()
-    controller.verProduto()
 
-})()
+new Validacao().aplicaValidacao()
+new CardClienteView().exibeCardCliente()
+
+const header = document.querySelectorAll('.secao__header')
+header.forEach(elemento => elemento.addEventListener('click', async (evento) => {
+    evento.preventDefault()
+    new ExibeTudoView().validaBotao(evento)
+}))
