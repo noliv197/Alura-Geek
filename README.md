@@ -9,7 +9,6 @@
 
 - [Build With](#build-with)
 
-- [Authors](#authors)
 
 ## About The Project
 ### Context
@@ -37,6 +36,7 @@ I used the desktop first approach (no particular reason) to create the html and 
 ## Features 
 - ` get products from server`: :heavy_check_mark:
   * I used json-server from node.js to host a localhost server
+  * I uploaded the server to heroku for deployment
   * Each product has the properties: img src, img alt, product title, product price, product category, product description and an id
   * Once the page is loaded ```exibeCard()``` uses fetch with method GET the products list and creates the card div for each product and add them to their corresponding product section
 - ` product description customized for each product`: :heavy_check_mark:
@@ -58,12 +58,22 @@ I used the desktop first approach (no particular reason) to create the html and 
 - ` edit product`: :heavy_check_mark:
   * I used the same logic of redirecting the page based on the product id
   * Upon clicking on the button with a pencil icon, the page is redirected to the edit form page, where all the product information are displayed on screen based on the product id
-  * Once the alterations are done and the form is submitted, ```atualizaProduto()``` uses fetch with method PUT to update the data
-- ` delete product`: :ballot_box_with_check: :grey_exclamation:
-- ` add new product`: :ballot_box_with_check: :grey_exclamation:
-- ` send message`: :ballot_box_with_check: :grey_exclamation:
-- ` search product`: :ballot_box_with_check: :grey_exclamation:
+  * Once the alterations are done and the form is submmitted, ```atualizaProduto()``` uses fetch with method PUT to update the data
+- ` delete product`: :heavy_check_mark: 
+  * Once the delete icon is clicked, the funtion ```removeProduto()``` uses fetch with method DELETE to erase the item from the server. 
+  * The item component is also erased from DOM
+- ` add new product`: :heavy_check_mark: 
+  * Once the form is submitted, ```postProdutos()``` uses fetch with method POST to forward the new data to the server 
+  * A new card component with the new information is added to the DOM 
+- ` send message`: :ballot_box_with_check: :grey_exclamation: 
+  * The form validation and submission is finished
+- ` search product`: :ballot_box_with_check: :grey_exclamation: 
+  * Not implemented yet
 - ` admin login`: :construction: 
+  * For now, after the form submission the page is redirect to admin. 
+  * There is no login token validation yet  
+  * email: admin-alurageek@gmail.com 
+  * password: senhaAluraGeek
 
 
 ## Build With
@@ -75,4 +85,3 @@ I used the desktop first approach (no particular reason) to create the html and 
 
 :small_blue_diamond: Node.js
 
-## Authors
