@@ -1,7 +1,7 @@
 export class serverController{
     constructor(){
-        this._produtos = "http://localhost:3000/produtos"
-        this._mensagens = "http://localhost:3000/mensagens"
+        this._produtos = "https://json-server-alurageek.herokuapp.com/produtos"
+        this._mensagens = "https://json-server-alurageek.herokuapp.com/mensagens"
     }
 
     async getProdutos(){
@@ -11,7 +11,7 @@ export class serverController{
     }
 
     static async postProdutos(src, titulo, preco, categoria, descricao){
-        const conexao = await fetch("http://localhost:3000/produtos",{
+        const conexao = await fetch("https://json-server-alurageek.herokuapp.com/produtos",{
             method: "POST",
             headers: {
                 "Content-type": "application/json"
@@ -45,7 +45,7 @@ export class serverController{
     }
 
     static async removeProduto(id){
-        const conexao = await fetch(`http://localhost:3000/produtos/${id}`, {
+        const conexao = await fetch(`https://json-server-alurageek.herokuapp.com/produtos/${id}`, {
             method: 'DELETE'
         })
         return conexao
