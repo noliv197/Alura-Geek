@@ -1,28 +1,47 @@
 import { serverController } from "./serverController.js"
 import {PageView} from "../view/pageView.js"
 
-class ContatoController{
-    
+export class ContatoController{
+    formulario = document.querySelector("[data-contato]")
+
     async enviaContato(){
-        const nome = document.querySelector("[data-nome]").value
-        const mensagem = document.querySelector("[data-mensagem]").value
-        
-        await new serverController().postMensagem(nome, mensagem) 
-        console.log("mensagem enviada")
+        try{
+            const nome = document.querySelector("[data-nome]")
+            const mensagem = document.querySelector("[data-mensagem]")
+            
+            await new serverController().postMensagem(nome.value, mensagem.value) 
+            nome.value = ''
+            mensagem.value = ''
+            console.log("mensagem enviada")
+        }
+        catch(erro){
+            console.log(erro)
+        }
+    }
+
+    submitFormulario(){
+        this.formulario.addEventListener('submit', evento => {
+            evento.preventDefault()
+            try{
+                this.enviaContato()
+                PageView.exibeAviso(
+                    "avisoMensagem",
+                    "Mensagem enviada com sucesso!",
+                    '',
+                    true
+                )
+            }
+            catch(erro){
+                PageView.exibeAviso(
+                    "avisoMensagem",
+                    "Não foi possível enviar a mensagem",
+                    '',
+                    true
+                )
+                console.log(erro)
+            }
+        })
     }
 }
 
-
-const formulario = document.querySelector("[data-contato]")
-formulario.addEventListener('submit', evento => {
-    evento.preventDefault()
-    try{
-        enviaContato()
-        PageView.exibeAviso("Mensagem enviada com sucesso!",'')
-    }
-    catch(erro){
-        PageView.exibeAviso("Não foi possível enviar a mensagem",'')
-        console.log(erro)
-    }
-})
 

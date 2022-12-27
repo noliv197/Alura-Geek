@@ -24,10 +24,16 @@ export class PageView{
         }
     }
 
-    static exibeAviso(texto, link){ 
-        const container = document.querySelector("[data-aviso]") 
+    static exibeAviso(tag,texto, link,time){ 
+        const container = document.querySelector(`[data-${tag}]`) 
         container.classList.add("aviso"); 
         container.innerHTML = TemplateModel.modeloAviso(texto,link)
+        if (time){
+            setTimeout(()=>{
+                container.innerHTML = ''
+                container.classList.remove("aviso")
+            },5000)
+        }
     }
 
 

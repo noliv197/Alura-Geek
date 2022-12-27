@@ -2,9 +2,12 @@ import { Validacao } from "../controller/validacaoController.js";
 import { ProdutosController } from "../controller/produtosController.js";
 import { CardView } from "../view/cardView.js";
 import { BuscaController } from "../controller/buscaController.js";
+import { ContatoController } from "../controller/contatoController.js";
 
 new CardView().exibeCard()
 new Validacao().aplicaValidacao()
+new ContatoController().submitFormulario()
+
 const controller = new ProdutosController()
 
 const produtos = document.querySelector('[data-secao]')
