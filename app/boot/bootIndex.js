@@ -16,12 +16,13 @@ header.forEach(elemento => elemento.addEventListener('click', async (evento) => 
 
 // Filtro Busca
 const botaoBusca = document.querySelector('.btn__busca')
+const inputBusca = document.querySelector('.input__busca')
+const inputDropdown = document.querySelector('[data-dropdown]')
+
 botaoBusca.addEventListener('click', evento => {
     evento.preventDefault()
     BuscaController.ativaBotao();
 })
 
-//const inputBusca = document.querySelector('.input__busca')
-//const inputDropdown = document.querySelector('[data-dropdown]')
-// inputBusca.addEventListener("blur", evento => Busca.filtroBusca(evento,'.input__busca'))
-// inputDropdown.addEventListener("blur", evento => Busca.filtroBusca(evento,'[data-dropdown]'))
+inputBusca.addEventListener("blur", evento => BuscaController.filtroBusca(evento,'.input__busca'))
+inputDropdown.addEventListener("blur", evento => BuscaController.filtroBusca(evento,'[data-dropdown]'))

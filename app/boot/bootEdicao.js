@@ -9,10 +9,16 @@ import { ContatoController } from "../controller/contatoController.js";
     const controller = new ProdutosController()
     controller.editaProduto()
 
+    const inputBusca = document.querySelector('.input__busca')
+    const inputDropdown = document.querySelector('[data-dropdown]')
     const botaoBusca = document.querySelector('.btn__busca')
+
     botaoBusca.addEventListener('click', evento => {
         evento.preventDefault()
         BuscaController.ativaBotao();
     })
+
+    inputBusca.addEventListener("blur", evento => BuscaController.filtroBusca(evento,'.input__busca'))
+    inputDropdown.addEventListener("blur", evento => BuscaController.filtroBusca(evento,'[data-dropdown]'))
 
 })()

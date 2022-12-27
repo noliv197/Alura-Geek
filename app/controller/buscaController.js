@@ -1,13 +1,25 @@
 import {serverController} from "./serverController.js"
 import { CardView } from "../view/cardView.js"
-import { CardSimilarView } from "../view/cardSimilarView.js"
 
 export class BuscaController{
+
+
+    static redireciona(){
+        const url = window.location.href
+        const domain = url.split('/')
+        if(domain[3] === ''|| domain[4] !== "produtos-todos.html"){
+            domain.splice(3)
+            window.location.href = domain.join('/') + '/telas/produtos-todos.html'
+        }
+        else return
+    }
+
     static async filtroBusca(evento, input){
         evento.preventDefault()
+        
         const inputBusca = document.querySelector(input).value
         const busca = await new serverController().buscaProduto(inputBusca)
-    
+        BuscaController.redireciona()
         const lista = document.querySelector("[data-secao]")
     
         while(lista.firstChild){
@@ -15,7 +27,7 @@ export class BuscaController{
         }
     
         busca.forEach(elemento => {lista.appendChild(
-            new CardView().constroiCard(
+            new CardView().constroiCardCliente(
                 elemento.src,
                 elemento.alt,
                 elemento.titulo,
@@ -26,7 +38,7 @@ export class BuscaController{
             
         });
         if (busca.length == 0){
-            lista.innerHTML = `<h2 class="texto__primario">0 resultados</h2>`
+            lista.innerHTML = `<h2 class="texto__primario">Nenhum resultado encontrado</h2>`
         }
     }
 

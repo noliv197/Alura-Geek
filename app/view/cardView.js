@@ -13,12 +13,38 @@ export class CardView{
         card.dataset.categoria = categoria
         return card 
     }
+    constroiCardCliente(src, alt, titulo, preco,categoria, id){
+        const card = document.createElement("div"); 
+        card.className = "card__produto"; 
+        card.innerHTML = TemplateModel.modeloCardCliente(src,alt,titulo,preco,id)
+        card.dataset.id = id
+        card.dataset.categoria = categoria
+        return card 
+    }
 
     async exibeCard(){ 
         try{
             const listaAPI = await new serverController().getProdutos() 
             listaAPI.forEach(elemento => this.secao.appendChild( 
                 this.constroiCard(
+                    elemento.src,
+                    elemento.alt,
+                    elemento.titulo,
+                    elemento.preco,
+                    elemento.categoria,
+                    elemento.id
+                )) 
+            ); 
+        }
+        catch(erro){
+            console.log(erro)
+        }
+    }
+    async exibeCardClienteTodos(){
+        try{
+            const listaAPI = await new serverController().getProdutos() 
+            listaAPI.forEach(elemento => this.secao.appendChild( 
+                this.constroiCardCliente(
                     elemento.src,
                     elemento.alt,
                     elemento.titulo,

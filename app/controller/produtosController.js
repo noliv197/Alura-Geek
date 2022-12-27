@@ -6,8 +6,7 @@ export class ProdutosController{
     id = this.pegaURL.searchParams.get('id')
     
     produto = new ProdutosModel()
-    //secao = document.querySelector('[data-secao]')
-    formulario = document.querySelector("[data-formulario]")
+      formulario = document.querySelector("[data-formulario]")
 
 
     async adicionaCard(){
