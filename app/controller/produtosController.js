@@ -18,6 +18,11 @@ export class ProdutosController{
             this.produto.categoria.value,
             this.produto.descricao.value
         )
+        this.produto.url.value = ''
+        this.produto.titulo.value =''
+        this.produto.preco.value =''
+        this.produto.categoria.value =''
+        this.produto.descricao.value =''
     }
 
     async deletaCard(evento){
