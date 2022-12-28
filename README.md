@@ -1,6 +1,7 @@
 <img src="assets/img/icone/Logo.png">
 
-> Project Status: :construction: On Development
+> Project Status: :heavy_check_mark: Finished 
+> Code Review: :construction: Not Started
 
 ## Table Of Contents
 - [About The Project](#about-the-project)
@@ -78,10 +79,10 @@ I used the desktop first approach (no particular reason) to create the html and 
 
 - ` search product`: :heavy_check_mark: 
   * The function ```buscaProduto()``` sends a HTTP GET request to the server using the search key as a parameter to filter the list
-  * The search is attached to the blur and ENTER keypress 
+  * The search is attached to the blur and ENTER keypress events
 
-- ` admin login`: :construction: 
-  * For now, after the form submission the page is redirect to admin. 
+- ` admin login`: :ballot_box_with_check: :heavy_exclamation_mark: 
+  * For now, after the form submission, the page is redirect to admin. 
   * There is no login token validation yet  
   * email: admin-alurageek@gmail.com 
   * password: senhaAluraGeek
