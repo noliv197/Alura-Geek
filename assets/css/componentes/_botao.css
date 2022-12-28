@@ -21,7 +21,6 @@
     width: 24px;
 }
 .btn__busca{
-    background: var(--icone-lupa);
     background-position: center;
     display: none;
 }

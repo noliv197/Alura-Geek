@@ -3,15 +3,11 @@ import { CardView } from "../view/cardView.js"
 
 export class BuscaController{
 
-
-    static redireciona(){
+    static getUrl(){
+        let page
         const url = window.location.href
-        const domain = url.split('/')
-        if(domain[3] === ''|| domain[4] !== "produtos-todos.html"){
-            domain.splice(3)
-            window.location.href = domain.join('/') + '/telas/produtos-todos.html'
-        }
-        else return
+        url.split('/')[4] === "produtos-todos.html" ? page = 'cliente' : page = 'admin'
+        return page
     }
 
     static async filtroBusca(evento, input){
@@ -19,22 +15,28 @@ export class BuscaController{
         
         const inputBusca = document.querySelector(input).value
         const busca = await new serverController().buscaProduto(inputBusca)
-        BuscaController.redireciona()
         const lista = document.querySelector("[data-secao]")
     
         while(lista.firstChild){
             lista.removeChild(lista.firstChild)
         }
     
-        busca.forEach(elemento => {lista.appendChild(
-            new CardView().constroiCardCliente(
+        busca.forEach(elemento => {
+            const elementoValues = [                
                 elemento.src,
                 elemento.alt,
                 elemento.titulo,
                 elemento.preco,
                 elemento.categoria,
                 elemento.id
-            ))
+            ]
+            if(BuscaController.getUrl() === 'cliente'){
+                lista.appendChild(new CardView().constroiCardCliente(...elementoValues))
+            }else{
+                lista.appendChild(new CardView().constroiCard(...elementoValues))
+            }
+            
+            
             
         });
         if (busca.length == 0){
