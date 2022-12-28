@@ -38,7 +38,9 @@ I used the desktop first approach (no particular reason) to create the html and 
   * I used json-server from node.js to host a localhost server
   * I uploaded the server to heroku for deployment
   * Each product has the properties: img src, img alt, product title, product price, product category, product description and an id
-  * Once the page is loaded ```exibeCard()``` uses fetch with method GET the products list and creates the card div for each product and add them to their corresponding product section
+  * Once the page is loaded, ```exibeCard()``` uses fetch with method GET to pull the products lists
+  * For each product, a card is created and sorted to their corresponding product section
+
 - ` product description customized for each product`: :heavy_check_mark:
   * while constructing a card product, I seted a link to the product description using their id
   ```
@@ -49,26 +51,35 @@ I used the desktop first approach (no particular reason) to create the html and 
   fetch(`http://localhost:3000/produtos/${id}`)
   ```
   * I also used the product category property to create the similar products section, adding to it only the products that have the same category 
+
 - ` show all`: :heavy_check_mark:
   * Once the "Ver tudo" button is clicked, the method ```exibetudo()``` changes the button innerText to "Mostrar menos" as well as removes the transparent class from all the product cards from the section that have it
   * Clicking on the button one more time reverse the process, changing the button innerText back to the original and adding the tranparent class to the cards according to the screen width 
     * screen width > 1210 shows a maximum of 6 cards
     * screen width between 1210 and 1035 shows a maximum of 5 cards
     * screen width < 1035 shows a maximum of 4 cards
+
 - ` edit product`: :heavy_check_mark:
   * I used the same logic of redirecting the page based on the product id
   * Upon clicking on the button with a pencil icon, the page is redirected to the edit form page, where all the product information are displayed on screen based on the product id
   * Once the alterations are done and the form is submmitted, ```atualizaProduto()``` uses fetch with method PUT to update the data
+
 - ` delete product`: :heavy_check_mark: 
-  * Once the delete icon is clicked, the funtion ```removeProduto()``` uses fetch with method DELETE to erase the item from the server. 
+  * Once the delete icon is clicked, the function ```removeProduto()``` uses fetch with method DELETE to erase the item from the server. 
   * The item component is also erased from DOM
+
 - ` add new product`: :heavy_check_mark: 
   * Once the form is submitted, ```postProdutos()``` uses fetch with method POST to forward the new data to the server 
   * A new card component with the new information is added to the DOM 
-- ` send message`: :ballot_box_with_check: :grey_exclamation: 
-  * The form validation and submission is finished
-- ` search product`: :ballot_box_with_check: :grey_exclamation: 
-  * Not implemented yet
+
+- ` send message`: :heavy_check_mark: 
+  * If the form pass the validation, the information submitted will be send to the server;
+  * A message appears 
+
+- ` search product`: :heavy_check_mark: 
+  * The function ```buscaProduto()``` sends a HTTP GET request to the server using the search key as a parameter to filter the list
+  * The search is attached to the blur and ENTER keypress 
+
 - ` admin login`: :construction: 
   * For now, after the form submission the page is redirect to admin. 
   * There is no login token validation yet  
@@ -83,5 +94,5 @@ I used the desktop first approach (no particular reason) to create the html and 
 
 :small_blue_diamond: Javascript
 
-:small_blue_diamond: Node.js
+:small_blue_diamond: Json Server
 

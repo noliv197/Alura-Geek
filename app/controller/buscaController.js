@@ -35,9 +35,6 @@ export class BuscaController{
             }else{
                 lista.appendChild(new CardView().constroiCard(...elementoValues))
             }
-            
-            
-            
         });
         if (busca.length == 0){
             lista.innerHTML = `<h2 class="texto__primario">Nenhum resultado encontrado</h2>`

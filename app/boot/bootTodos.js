@@ -17,5 +17,10 @@ botaoBusca.addEventListener('click', evento => {
 })
 
 inputBusca.addEventListener("blur", evento => BuscaController.filtroBusca(evento,'.input__busca'))
+inputBusca.addEventListener("keypress", evento => {
+    if(evento.keyCode === 13){
+        BuscaController.filtroBusca(evento,'.input__busca')
+    }
+})
 inputDropdown.addEventListener("blur", evento => BuscaController.filtroBusca(evento,'[data-dropdown]'))
 
